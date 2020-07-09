@@ -1,0 +1,501 @@
+       .plants-3 {
+            width: 234px;
+            height: 376px;
+            opacity: 0.7;
+            margin-left: 65%;
+            margin-right: 20%;
+            float: center;
+            margin-top: 14px;
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        .plants-4 {
+            z-index: -1;
+            width: 320px;
+            opacity: 0.36;
+            margin-left: 3%;
+            margin-top: -140px;
+        }
+        .plants-5 {
+            width: 400px;
+            margin-left: 83%;
+            margin-top: 152px;
+            transform: rotate(-126deg);
+        }
+        .plants-6 {
+            z-index: -5;
+            width: 500px;
+            height: 572px;
+            margin-left: 29%;
+            margin-right: 40%;
+            margin-top: -130px;
+        }
+        .plants-7 {
+            width: 520px;
+            opacity: 0.58;
+            margin-left: -10%;
+            margin-right: auto;
+            margin-top: 170px;
+        }
+        .plants-8 {
+            width: 285px;
+            height: 303px;
+            margin-left: 80%;
+            margin-right:20%;
+            margin-top: -200px;
+        }
+        .coral-8 {
+            z-index: 1;
+            width: 133px;
+            margin-left: 70%;
+            margin-right: auto ;
+            margin-top: 600px;
+        }
+        .Rosie-sangeun-text-deco {
+          width: 700px;
+            margin-left: 52% ;
+            margin-right: auto;
+            margin-top: 650px;
+        }
+        .Rosie {
+            z-index: 1;
+            width: 159px;
+            margin-left: 17%;
+            margin-right: ;
+            margin-top: 750px;
+        }
+        .Rosie-decoration {
+            width: 191px;
+            margin-left: 15.8%;
+            margin-right: auto;
+            margin-top: 842px;
+        }
+        .Rosie-e-mail{
+            z-index: 2;
+            fill: rgba(0, 0, 0, 0.5);
+            margin-left: 17%;
+            margin-top: 950px;
+            background: none;
+            width: 30px;
+        }
+        .Rosie-medium{
+            z-index: 2;
+            fill: rgba(0, 0, 0, 0.5);
+            margin-left: 24%;
+            margin-top: 950px;
+            background:none;
+            width: 30px;
+        }
+
+        .Sangeun {
+            z-index: 1;
+            width: 152px;
+            margin-left: 35%;
+            margin-right: auto;
+            margin-top: 750px;
+        }
+        .Sangeun-e-mail{
+            fill: rgba(0, 0, 0, 0.5);
+            margin-left: 35%;
+            margin-top: 950px;
+            background: none;
+            width: 30px;
+        }
+        .Sangeun-medium{
+            fill: rgba(0, 0, 0, 0.5);
+            margin-left: 42%;
+            margin-top: 950px;
+            background:none;
+            width: 30px;
+        }
+
+        .Sangeun-decoration {
+          width: 201px;
+            margin-left: 34%;
+            margin-right: auto;
+            margin-top: 842px;
+        }
+
+        .who-are-we-img svg:hover {
+            fill: #0091ff;
+        }
+        .plants-1 {
+            width: 703px;
+            transform: rotate(200deg);
+            opacity: 0.2;
+            margin-left:60% ;
+            margin-right: auto;
+            margin-top: 900px ;
+        }
+        .coral-12 {
+            z-index: -10;
+            width: 559px;
+            transform: rotate(97deg);
+            opacity: 0.57;
+            margin-left: 5% ;
+            margin-right: auto;
+            margin-top: 1000px;
+        }
+
+        .User-faces-charactors_0051_GL-18 {
+            width: 81px;
+            height: 100px;
+            margin-left:32% ;
+            margin-right: auto;
+            margin-top: 1600px;
+        }
+        .User-faces-charactors_0029_GL-93 {
+            width: 100px;
+            height: 96px;
+            margin-left: 42%;
+            margin-right: auto;
+            margin-top: 1600px;
+        }
+        .User-faces-charactors_0018_GL-132 {
+            width: 88px;
+            height: 103px;
+            margin-left: 53%;
+            margin-right: auto ;
+            margin-top: 1600px;
+        }
+
+
+        .User-faces-charactors_0020_GL-114 {
+            width: 95px;
+            height: 99px;
+            margin-left: 63%;
+            margin-right: auto;
+            margin-top: 1600px;
+        }
+
+
+            @media only screen and (max-width:1024px){
+                    .plants-3 {
+                        width: 16.8%;
+                        height: auto;
+                        opacity: 0.7;
+                    }
+                    .plants-4 {
+                        z-index: -1;
+                        width: 20.9%;
+                        margin-left: -1%;
+                        margin-top: -40px;
+                    }
+                    .plants-5 {
+                        width: 30%;
+                        height: auto;
+                        transform: rotate(-126deg);
+                    }
+                    .plants-6 {
+                        z-index: -5;
+                        width: 50%;
+                        height: auto;
+                        margin-left: 29%;
+                        margin-right: 40%;
+                        margin-top: -130px;
+                    }
+                    .plants-7 {
+                        z-index: -1;
+                        width: 48%;
+                        opacity: 0.58;
+                        margin-left: -20%;
+                        margin-right: auto;
+                        margin-top: 170px;
+                    }
+                    .plants-8 {
+                        width: 40%px;
+                        height: auto;
+                        margin-left: 80%;
+                        margin-right:20%;
+                        margin-top: -200px;
+                    }
+                    .coral-8 {
+                        z-index: 1;
+                        width: 17.3%;
+                        margin-left: 40%;
+                        margin-right: auto ;
+                        margin-top: 1150px;
+                    }
+                    .Rosie-sangeun-text-deco {
+                      width: 90%;
+                        margin-left: 4% ;
+                        margin-right: auto;
+                        margin-top: 1200px;
+                    }
+                    .Rosie {
+                        z-index: 1;
+                        width: 20.8%;
+                        margin-left: 20%;
+                        margin-right: ;
+                        margin-top: 780px;
+                    }
+                    .Rosie-decoration {
+                        width: 25%;
+                        margin-left: 18%;
+                        margin-right: auto;
+                        margin-top: 900px;
+                    }
+                    .Rosie-e-mail{
+                        z-index: 2;
+                        fill: rgba(0, 0, 0, 0.5);
+                        margin-left: 21%;
+                        margin-top: 1030px;
+                        background: none;
+                        width: 35px;
+                    }
+                    .Rosie-medium{
+                        z-index: 2;
+                        fill: rgba(0, 0, 0, 0.5);
+                        margin-left: 33%;
+                        margin-top: 1030px;
+                        background:none;
+                        width: 35px;
+                    }
+
+                    .Sangeun {
+                        z-index: 1;
+                        width: 20%;
+                        margin-left: 57%;
+                        margin-right: auto;
+                        margin-top: 770px;
+                    }
+                    .Sangeun-e-mail{
+                        fill: rgba(0, 0, 0, 0.5);
+                        margin-left: 60%;
+                        margin-top: 1030px;
+                        background: none;
+                        width: 35px;
+                    }
+                    .Sangeun-medium{
+                        fill: rgba(0, 0, 0, 0.5);
+                        margin-left: 72%;
+                        margin-top: 1030px;
+                        background:none;
+                        width: 35px;
+                    }
+
+                    .Sangeun-decoration {
+                      width: 26%;
+                        margin-left: 55%;
+                        margin-right: auto;
+                        margin-top: 900px;
+                    }
+
+                    .who-are-we-img svg:hover {
+                        fill: #0091ff;
+                    }
+                    .plants-1 {
+                        z-index: -1;
+                        width: 503px;
+                        transform: rotate(200deg);
+                        opacity: 0.2;
+                        margin-left: 55%;
+                        margin-right: auto;
+                        margin-top: 1650px ;
+                    }
+                    .coral-12 {
+                        z-index: -10;
+                        width: 500px;
+                        transform: rotate(97deg);
+                        opacity: 0.57;
+                        margin-left: -10% ;
+                        margin-right: auto;
+                        margin-top: 1600px;
+                    }
+
+                    .User-faces-charactors_0051_GL-18 {
+                        width: 81px;
+                        height: 100px;
+                        margin-left: 22%;
+                        margin-right: auto;
+                        margin-top: 2200px;
+                    }
+                    .User-faces-charactors_0029_GL-93 {
+                        width: 100px;
+                        height: 96px;
+                        margin-left: 37%;
+                        margin-right: auto;
+                        margin-top: 2200px;
+                    }
+                    .User-faces-charactors_0018_GL-132 {
+                        width: 88px;
+                        height: 103px;
+                        margin-left: 55%;
+                        margin-right: auto ;
+                        margin-top: 2200px;
+                    }
+
+
+                    .User-faces-charactors_0020_GL-114 {
+                        width: 95px;
+                        height: 99px;
+                        margin-left: 70%;
+                        margin-right: auto;
+                        margin-top: 2200px;
+                    }
+            }
+
+                            @media only screen and (max-width:414px){
+                                .plants-3 {
+                                    width: 16.8%;
+                                    height: auto;
+                                    opacity: 0.7;
+                                    display: none !important;
+                                }
+                                .plants-4 {
+                                    z-index: -1;
+                                    width: 55%;
+                                    margin-left: 56%;
+                                    margin-top: 200px;
+                                }
+                                .plants-5 {
+                                    width: 30%;
+                                    height: auto;
+                                    transform: rotate(-126deg);
+                                    display: none !important;
+                                }
+                                .plants-6 {
+                                    z-index: -5;
+                                    width: 80%;
+                                    height: auto;
+                                    margin-left: -29%;
+                                    margin-right: 40%;
+                                    margin-top: 30px;
+                                }
+                                .plants-7 {
+                                    z-index: -1;
+                                    width: 48%;
+                                    opacity: 0.58;
+                                    margin-left: -20%;
+                                    margin-right: auto;
+                                    margin-top: 170px;
+                                    display: none !important;
+                                }
+                                .plants-8 {
+                                    width: 40%;
+                                    height: auto;
+                                    margin-left: 65%;
+                                    margin-top: 30px;
+                                }
+                                .coral-8 {
+                                    z-index: 1;
+                                    width: 32%;
+                                    margin-left: 30%;
+                                    margin-right: auto ;
+                                    margin-top: 950px;
+                                }
+                                .Rosie-sangeun-text-deco {
+                                    width: 170%;
+                                    margin-left: -30% ;
+                                    margin-right: auto;
+                                    margin-top: 980px;
+                                }
+                                .Rosie {
+                                    z-index: 1;
+                                    width: 36%;
+                                    margin-left: 8%;
+                                    margin-right: ;
+                                    margin-top: 670px;
+                                }
+                                .Rosie-decoration {
+                                    width: 45%;
+                                    margin-left: 4%;
+                                    margin-right: auto;
+                                    margin-top: 750px;
+                                }
+                                .Rosie-e-mail{
+                                    z-index: 2;
+                                    fill: rgba(0, 0, 0, 0.5);
+                                    margin-left: 13%;
+                                    margin-top: 850px;
+                                    width: 31px;
+                                }
+                                .Rosie-medium{
+                                    z-index: 2;
+                                    fill: rgba(0, 0, 0, 0.5);
+                                    margin-left: 30%;
+                                    margin-top: 850px;
+                                    width: 31px;
+                                }
+
+                                .Sangeun {
+                                    z-index: 1;
+                                    width: 35%;
+                                    margin-left: 55%;
+                                    margin-right: auto;
+                                    margin-top: 670px;
+                                }
+                                .Sangeun-e-mail{
+                                    fill: rgba(0, 0, 0, 0.5);
+                                    margin-left: 60%;
+                                    margin-top: 850px;
+                                    width: 31px;
+                                }
+                                .Sangeun-medium{
+                                    fill: rgba(0, 0, 0, 0.5);
+                                    margin-left: 78%;
+                                    margin-top: 850px;
+                                    width: 31px;
+                                }
+
+                                .Sangeun-decoration {
+                                  width: 46%;
+                                    margin-left: 50%;
+                                    margin-right: auto;
+                                    margin-top: 760px;
+                                }
+
+                                .who-are-we-img svg:hover {
+                                    fill: #0091ff;
+                                }
+                                .plants-1 {
+                                    z-index: -1;
+                                    width: 463px;
+                                    transform: rotate(200deg);
+                                    opacity: 0.2;
+                                    margin-left: 55%;
+                                    margin-right: auto;
+                                    margin-top: 1550px ;
+                                }
+                                .coral-12 {
+                                    z-index: -10;
+                                    width: 350px;
+                                    transform: rotate(106deg);
+                                    opacity: 0.57;
+                                    margin-left: -30% ;
+                                    margin-right: auto;
+                                    margin-top: 1560px;
+                                }
+
+                                .User-faces-charactors_0051_GL-18 {
+                                    width: 60px;
+                                    height: auto;
+                                    margin-left: 12%;
+                                    margin-right: auto;
+                                    margin-top: 1850px;
+                                }
+                                .User-faces-charactors_0029_GL-93 {
+                                    width: 60px;
+                                    height: auto;
+                                    margin-left: 32%;
+                                    margin-right: auto;
+                                    margin-top: 1850px;
+                                }
+                                .User-faces-charactors_0018_GL-132 {
+                                    width: 56px;
+                                    height: auto;
+                                    margin-left: 53%;
+                                    margin-right: auto ;
+                                    margin-top: 1850px;
+                                }
+
+
+                                .User-faces-charactors_0020_GL-114 {
+                                    width: 60px;
+                                    height: auto;
+                                    margin-left: 75%;
+                                    margin-right: auto;
+                                    margin-top: 1850px;
+                                }
+                        }

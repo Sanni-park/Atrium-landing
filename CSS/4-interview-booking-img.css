@@ -1,0 +1,108 @@
+       .Interview-booking-saying {
+            width: 337px;
+            margin-left: 57%;
+            margin-right: auto;
+            margin-top: 628px;
+        }
+        .Interview-booking-rosie {
+            width: 347px;
+            margin-left: 57%;
+            margin-right: auto;
+            margin-top: 772px;
+        }
+        .User-faces-charactors_0009_GL-115 {
+            width: 103px;
+            margin-left: 86%;
+            margin-right: auto;
+            margin-top: 732px;
+        }
+        .User-faces-charactors_0053_GL-6 {
+            width: 88px;
+            margin-left: 80%;
+            margin-right: auto;
+            margin-top: 1000px;
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        .User-faces-charactors_0045_GL-29 {
+            width: 100px;
+            margin-left: 12%;
+            margin-right: auto;
+            margin-top: 911px;
+        }
+
+
+                @media only screen and (max-width:1024px){
+                        .Interview-booking-saying {
+                            width: 337px;
+                            margin-left: 57%;
+                            margin-right: auto;
+                            margin-top: 558px;
+                        }
+                        .Interview-booking-rosie {
+                            width: 347px;
+                            margin-left: 57%;
+                            margin-right: auto;
+                            margin-top: 702px;
+                        }
+                        .User-faces-charactors_0009_GL-115 {
+                            width: 103px;
+                            margin-left: 86%;
+                            margin-right: auto;
+                            margin-top: 432px;
+                        }
+                        .User-faces-charactors_0053_GL-6 {
+                            width: 88px;
+                            margin-left: 80%;
+                            margin-right: auto;
+                            margin-top: 1000px;
+                            transform: scaleX(-1);
+                            filter: FlipH;
+                            -ms-filter: "FlipH";
+                        }
+                        .User-faces-charactors_0045_GL-29 {
+                            width: 100px;
+                            margin-left: 46%;
+                            margin-right: auto;
+                            margin-top: 921px;
+                        }
+                }
+
+                            @media only screen and (max-width:414px){
+                                .Interview-booking-saying {
+                                    width: 337px;
+                                    margin-left: 8%;
+                                    margin-right: auto;
+                                    margin-top: 405px;
+                                }
+                                .Interview-booking-rosie {
+                                    width: 347px;
+                                    margin-left: 8%;
+                                    margin-right: auto;
+                                    margin-top: 544px;
+                                }
+                                .User-faces-charactors_0009_GL-115 {
+                                    width: 82px;
+                                    margin-left: 78%;
+                                    margin-right: auto;
+                                    margin-top: 1232px;
+                                }
+                                .User-faces-charactors_0053_GL-6 {
+                                    width: 72px;
+                                    margin-left: 40%;
+                                    margin-right: auto;
+                                    margin-top: 1340px;
+                                    transform: scaleX(1);
+                                    filter: FlipH;
+                                    -ms-filter: "FlipH";
+                                }
+                                .User-faces-charactors_0045_GL-29 {
+                                    width: 80px;
+                                    margin-left: 10%;
+                                    margin-right: auto;
+                                    margin-top: 1271px;
+                                }
+                        }
+
+                                

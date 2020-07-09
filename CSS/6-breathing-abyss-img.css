@@ -1,0 +1,53 @@
+.breathing-abssy-background{
+    width: 1850px;
+    margin-left: -3%;
+    margin-top: 60px;
+    z-index: -1;
+    
+}
+.breathing-abyss-background-iPad{
+    display: none !important;
+}
+.breathing-abyss-background-414{
+    display: none !important;
+}
+
+        @media only screen and (max-width:1024px) {
+            .breathing-abssy-background{
+                width: 1150px;
+                margin-left: -3%;
+                margin-top: 140px;
+                display: none !important;
+
+            }
+            .breathing-abyss-background-iPad{
+                display: block !important;
+                z-index: -1;
+                width: 100vw;
+                margin-top: 140px;
+            }
+        }
+
+
+                @media only screen and (max-width:414px) {
+                            .breathing-abssy-background{
+                                width: 1150px;
+                                margin-left: -3%;
+                                margin-top: 140px;
+                                display: none !important;
+
+                            }
+                            .breathing-abyss-background-iPad{
+                                display: block !important;
+                                z-index: -1;
+                                width: 100vw;
+                                margin-top: 140px;
+                                display: none !important;
+                            }
+                            .breathing-abyss-background-414{
+                                display: block !important;
+                                z-index: -10;
+                                width: 100%;
+                                margin-top: 160px;
+                            }
+                        }
