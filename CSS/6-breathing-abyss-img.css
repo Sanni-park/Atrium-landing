@@ -1,5 +1,5 @@
 .breathing-abssy-background{
-    width: 1850px;
+    width: 110vw;
     margin-left: -3%;
     margin-top: 60px;
     z-index: -1;
@@ -10,6 +10,16 @@
 }
 .breathing-abyss-background-414{
     display: none !important;
+}
+
+@media(min-width:1441px){
+    .breathing-abssy-background{
+            width: 110vw;
+            margin-left: -3%;
+            margin-top: 60px;
+            z-index: -1;
+    
+}
 }
 
         @media only screen and (max-width:1024px) {
@@ -51,3 +61,13 @@
                                 margin-top: 160px;
                             }
                         }
+
+                        @media only screen and (max-width:360px) {
+                                    
+                                    .breathing-abyss-background-414{
+                                        display: block !important;
+                                        z-index: -10;
+                                        width: 100%;
+                                        margin-top: 30vh;
+                                    }
+                                }

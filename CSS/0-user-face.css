@@ -557,8 +557,8 @@
                             }
 
                             .User-faces-charactors_0003_KR-21{
-                                margin-left: 90.6%;
-                                top: 655px;
+                                margin-left: 88%;
+                                top: 755px;
                                 animation-duration: 5s;
                             }
                             .User-faces-charactors_0004_KR-20{
@@ -632,7 +632,7 @@
                                 animation-duration: 5s;
                             }
                             .User-faces-charactors_0017_GL-133{
-                                margin-left: 88.1%;
+                                margin-left: 87%;
                                 top: 262px;
                                 animation-duration: 5s;
                             }
@@ -647,7 +647,7 @@
                                 animation-duration: 5s;
                             }
                             .User-faces-charactors_0022_GL-112{
-                                margin-left: 87.4%;
+                                margin-left: 87%;
                                 top: 470px;
                             }
                             .User-faces-charactors_0023_GL-111{
@@ -799,6 +799,12 @@
                                 animation-duration: 3s;
                             }
                 }
+
+                            @media only screen and (max-width:360px){
+                                                .Story-Welcome-faces img{
+                                                        width: 45px;    
+                                } 
+                            }
 
          .User-faces-charactors_0023_GL-111, .User-faces-charactors_0024_GL-106, .User-faces-charactors_0025_GL-104, .User-faces-charactors_0026_GL-102, .User-faces-charactors_0027_GL-98, .User-faces-charactors_0028_GL-97, .User-faces-charactors_0031_GL-90, .User-faces-charactors_0032_GL-87, .User-faces-charactors_0033_GL-86, .User-faces-charactors_0034_GL-73, .User-faces-charactors_0036_GL-67, .User-faces-charactors_0037_GL-66, .User-faces-charactors_0038_GL-60{
                 animation-duration: 5s;

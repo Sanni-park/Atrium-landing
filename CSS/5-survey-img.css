@@ -37,10 +37,11 @@
     margin-top: 400px;
 }
 .Survey-questionnair-board {
-    width: 381px;
-    margin-left: 23%;
+    max-width: 350px;
+    min-width: 20vw;
+    margin-left: 21.5vw;
     margin-right: auto;
-    margin-top: 714px;
+    margin-top: 800px;
 }
 
 
@@ -83,8 +84,8 @@
                 margin-top: 300px;
             }
             .Survey-questionnair-board {
-                width: 381px;
-                margin-left: 10%;
+                width: 420px;
+                margin-left: 8%;
                 margin-right: auto;
                 margin-top: 620px;
             }
@@ -131,10 +132,38 @@
                                 margin-top: 300px;
                             }
                             .Survey-questionnair-board {
-                                width: 364px;
-                                margin-left: 5.3%;
+                                width: 80vw;
+                                margin-left: 10vw;
+                                margin-right: 5vw;
                                 margin-right: auto;
-                                margin-top: 953px;
+                                margin-top: 190vw;
                             }
 
                 }
+                                @media(max-width:360px){
+                                    .survey-background {
+                                        z-index: -10;
+                                        width: 100%;
+                                        height: 1200px;
+                                        background-color: #e3f3ff;
+                                        position: absolute;
+                                        margin-top: 8vh;
+                                    }
+                                    .shell-12 {
+                                        width: 40px;
+                                        margin-left: 22%;
+                                        margin-right: auto;
+                                        margin-top: 10vh;
+                                    }
+                                    .shell-13 {
+                                        width: 40px;
+                                        margin-left: 5%;
+                                        margin-right: auto;
+                                        margin-top: 20vh;
+                                    }
+                                    .Survey-questionnair-board{
+                                        width: 70vw;
+                                        margin-top: 120vh;
+                                        margin-left: 15vw;
+                                    }
+                            }

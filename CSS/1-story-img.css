@@ -1,3 +1,4 @@
+
 .story-img .Atrium-logo{
                 width: 39vw;
                 height: auto;
@@ -11,12 +12,28 @@
                 left: -560px;
                 width: 2800px;
                 opacity: 0.51;
+                display: none;
+            }
+            .Colosseum-over-1440{
+                top: 0vh;
+                z-index: -1;
+                opacity: 0.51;
+                width: 100vw;
+            }
+            .Colosseum-iPad{
+                display: none !important;
+            }
+            .Colosseum-414{
+                display: none !important;
             }
             .Welcome-1 {
                 z-index: -2;
                 width: 120%;
                 left: 13%;
                 top: 882px;
+            }
+            .Welcome-1-iPad{
+                display: none;
             }
             .Welcome-2 {
                 z-index: -3;
@@ -43,6 +60,13 @@
                 top: 1650px;
                 transform: rotate(5deg);
             }
+            .Story-iPad-background{
+                display: none !important;
+            }
+            .Story-background-414{
+                display: none;
+            }
+
 
                 @media only screen and (max-width:1024px){
                     
@@ -62,29 +86,46 @@
                             left: -50vw;
                             width: 200vw;
                             opacity: 0.51;
+                            display: none;
                         }
-                    .Colosseum-box{
-                        width: 1024px;
-                        overflow-x: hidden;
+                    .Colosseum-iPad{
+                        display: block !important; 
+                        z-index: -10;
+                        width: 100vw;
+                        top: 0;
+                        
                     }
+                    .Colosseum-over-1440{
+                        display: none;
+                    }
+                    
                         .Welcome-1 {
                             z-index: -2;
                             width: 120%;
                             left: 1%;
                             top: 892px;
+                            display: none;
+                            
+                        }
+                        .Welcome-1-iPad{
+                            z-index: -10;
+                            top: 892px;
+                            display: none;
                         }
                         .Welcome-2 {
                             z-index: -3;
                             width: 90%;
                             left: -100px;
                             top: 1452px;
+                            display: none;
                         }
                         .coral-15{
-                            z-index: -1;
+                            z-index: -3;
                             width: 250px;
                             left: 80%;;
                             top: 1008px;
                             float: right;
+                            display: none;
                         }
                         .coral-16{
                             z-index: -1;
@@ -92,6 +133,7 @@
                             right: 84%;
                             top: 1350px;
                             float: left;
+                            display: none;
                         }
                         .plants-14-alium {
                             width: 30%;
@@ -100,6 +142,16 @@
                             transform: rotate(5deg);
                         }
                 }
+                        
+                    @media (max-width:1025px){
+                        .Story-iPad-background{
+                            display: block !important;
+                            min-width: 415px;
+                            max-width: 100vw;
+                            margin-top: 600px;
+                            z-index: -2;
+                        }
+                    }
 
                             @media only screen and (max-width:414px){
                     
@@ -108,14 +160,27 @@
                                         height: auto;
                                         padding-left: 4.3%;
                                         padding-right: 4.3%;
-                                        top: 157px;
+                                        top: 23vh;
                                     }
                                     .Colosseum{
                                         z-index: -1;
                                         top: -10vw;
                                         left: -190vw;
-                                        width: 470vw;
+                                        width: 100vw;
                                         opacity: 0.51;
+                                    }
+                                    .Colosseum-iPad{
+                                        z-index: -10;
+                                        width: 100vw;
+                                        top: 0;
+                                        display: none !important;
+
+                                    }
+                                    .Colosseum-414{
+                                        display: block !important;
+                                        z-index: -10;
+                                        top:0;
+                                        width: 100vw;
                                     }
                                     .Welcome-1 {
                                         z-index: -2;
@@ -148,5 +213,24 @@
                                         right: 34%;
                                         top: 1800px;
                                         transform: rotate(5deg);
+                                        display: none;
+                                    }
+                                    .Story-iPad-background{
+                                        display: none !important;
+                                    }
+                                    .Story-background-414{
+                                        display: block;
+                                        z-index: -10;
+                                        margin-top: 900px;
+                                        width: 100vw;
                                     }
                             }
+
+                                        @media only screen and (max-width:360px){
+                                            .Story-background-414{
+                                                    display: block;
+                                                    z-index: -10;
+                                                    margin-top: 130vh;
+                                                    width: 100vw;
+                                                }
+                                        }

@@ -33,11 +33,22 @@
     vertical-align: baseline;
 }
 body{
-    width: auto;
-    overflow-x: hidden;
+    width: 100vw;
+    overflow-x: hidden !important;
 }
 html {
     
+}
+section{
+    width: 100vw;
+}
+header{
+    width: 100vw;
+}
+.wrapper{
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
 }
 
 
@@ -244,7 +255,7 @@ img{
 
 .story-p-text-2{
     width: 426px;
-    height: 130px;
+    height: 170px;
     font-family: PTSerif-Caption;
     font-size: 28px;
     font-weight: normal;
@@ -318,7 +329,7 @@ p.month-august{
     
 }
 p.introduction-text{
-  width: 250px;
+  width: 300px;
   height: 230px;
   font-family: PTSerif-Caption;
   font-size: 23px;
@@ -329,9 +340,9 @@ p.introduction-text{
   letter-spacing: -0.86px;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
-    margin-left: 56vw;
+    margin-left: 54.5vw;
     position: relative;
-    top: -150px;
+    top: -230px;
     
 }
 p.introduction-text a:link, a:visited{
@@ -479,7 +490,7 @@ aside strong{
     padding-top: 50px;
 }
 .interview-booking-sub-head{
-  width: 421px;
+  width: 470px;
   height: 126px;
   font-family: PTSerif-Caption;
   font-size: 68px;
@@ -523,12 +534,13 @@ aside strong{
 .survey-body{
     margin-top: 250px;
     padding-top: 50px;
+    
 }
 .survey-sub-head{
-  width: 817px;
+  width: 50vw;
   height: 177px;
   font-family: PTSerif-Caption;
-  font-size: 59px;
+  font-size: 3.4em;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -536,23 +548,25 @@ aside strong{
   letter-spacing: -2.53px;
   color: #08ba6e;
     align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
+    margin-left: 21.5vw;
+    margin-right: 25vw;
+    margin-top: 6vw;
+    position: relative;
     
 }
 .survey-cta-link{ 
     width: 192px;
     height: 39px;
     font-family: PTSerif-Caption;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.11;
     letter-spacing: -1.5px;
     color: #0fafb4;
-    margin-left: 33%;
-    margin-top: 157px;
-    position: absolute;
+    margin-left: 34%;
+    margin-top: 170px;
+    position: relative;
     z-index: 9999;
+    display: none;
 }
 
 .survey-p-text{
@@ -566,7 +580,7 @@ aside strong{
     line-height: 1.55;
     letter-spacing: -0.94px;
     color: #003739;
-    margin-top: 40px;
+    margin-top: 6vw;
     margin-left: 52.2vw;
     
 }
@@ -700,6 +714,8 @@ footer{
 
 /*-----Responsive-----*/
 
+@media()
+
 @media only screen and (min-width:1800px){
     body{
         padding-left: 10%;
@@ -721,12 +737,17 @@ footer{
     }
 }
 
+
         @media only screen and (max-width:1024px){
 
                                 /*-----For all the section-----*/    
+            
+            
             body{
-                width: 1024px;
-                overflow-x: hidden;
+                z-index: 10000 !important;
+                width: 100vw;
+                display: block;
+                overflow-x: hidden!important;
             }
             
             h6{
@@ -755,6 +776,7 @@ footer{
                 width: 100vw;
                 height: 7800px;
             }
+
                                 /*-----Navigation-----*/
 
             .Navigation{
@@ -809,19 +831,19 @@ footer{
             .story-head-1{
                 width: 183px;
                 height: auto;
-                font-size: 55px;
+                font-size: 50px;
                 line-height: 0.9;
                 letter-spacing: -1.5px;
                 text-align: left;
-                margin-left: 23%;
+                margin-left: 20%;
                 margin-right: auto;
-                margin-top: 6%; 
+                margin-top: 8%; 
             }
 
             .story-head-2{
-                width: 455px;
+                width: 420px;
                 height: auto;
-                font-size: 35px;
+                font-size: 28px;
                 line-height: 1.46;
                 letter-spacing: -1.5px;
                 text-align: left;
@@ -857,6 +879,7 @@ footer{
                 line-height: 1.32;
                 letter-spacing: -1.2px;;
                 margin-left: 0px;
+                margin-top: 100px;
             }
 
 
@@ -878,12 +901,12 @@ footer{
                 letter-spacing: -1.8px;
                 color: #0fafb4;
                 margin-left: 47.1%;
-                margin-top: 2%;
+                margin-top: 4%;
             }
 
                             /*-----Development Process-----*/
             .development-body{
-                margin-top: 100px;
+                margin-top: 30px;
                 padding-top: 120px;
             }
             .development-body h1{
@@ -903,17 +926,6 @@ footer{
             p.month-august{
             }
 
-            p.introduction-text{
-                width: 240px;
-                height: 230px;
-                font-size: 20px;
-                line-height: 1.5;
-                letter-spacing: -0.86px;
-                margin-left: 57%;
-                margin-right: auto;
-                margin-top: 15px;
-            }
-
             .development-buttons{
                 z-index: 10;
                 width: 68px;
@@ -921,7 +933,7 @@ footer{
                 font-size: 12px;
                 text-align: center;
                 margin-left: 54px;
-                margin-top: 0px;
+                margin-top: -60px;
             }
             .development-buttons:hover {
                 cursor: zoom-in;
@@ -929,11 +941,12 @@ footer{
 
             .august-2019{
                 position: static;
-                margin-right: 25px;
+                margin-right: 28px;
                 margin-top: 80px;
             }
             .december-2019{
                 top: -34px;
+                margin-left: 150%
             }
 
             .january-2020{
@@ -945,7 +958,7 @@ footer{
                 top: -102px;
             }
             .july-2020{
-                margin-left: 600%;
+                margin-left: 620%;
                 top: -136px;
                 margin-right: 0px;
             }
@@ -957,30 +970,30 @@ footer{
                 padding-top: 120px;
             }
             p.who-we-are-sub-head{
-                width: 739px;
+                width: auto;
                 height: 156px;
-                font-size: 53px;
+                font-size: 300%;
                 line-height: 1.08;
                 margin-top: 57px;
                 letter-spacing: -2.06px;
-                margin-left: auto;
-                margin-right: auto;
+                margin-left: 15vw;
+                margin-right: 15vw;
             }
 
             p.who-we-are-p-text{
-                width: 668px;
+                width: 70vw;
                 height: 257px;
-                font-size: 33px;
+                font-size: 180%;
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
                 line-height: 1.42;
                 letter-spacing: -1.41px;
-                margin-top: 600px;
+                margin-top: 630px;
             }
 
             .who-we-are-body aside{
-                  width: 988px;
+                  width: 90vw;
                   height: auto;
                   font-size: 66px;
                   line-height: 1.18;
@@ -1002,7 +1015,7 @@ footer{
                 width: 421px;
                 height: 126px;
                 font-family: PTSerif-Caption;
-                font-size: 68px;
+                font-size: 60px;
                 line-height: 0.93;
                 letter-spacing: -2.91px;
                 margin-left: 10%;
@@ -1013,7 +1026,7 @@ footer{
             .interview-booking-p-text{
                 width: 444px;
                 height: 318px;
-                font-size: 24px;
+                font-size: 23px;
                 margin-left: 10%;
                 margin-right: auto;
             }
@@ -1021,19 +1034,19 @@ footer{
                 color: aquamarine;
             }
 
-                                /*-----Survey-----*/
+                                /*-----Survey-1024----*/
             .survey-body{
                 margin-top: 105px;
                 padding-top: 120px;
             }
             .survey-sub-head{
-                width: 817px;
+                width: 80vw;
                 height: 177px;
-                font-size: 59px;
+                font-size: 3em;
                 line-height: 0.98;
                 letter-spacing: -2.53px;
-                margin-left: 10%;
-                margin-right: auto;
+                margin-left: 10vw;
+                margin-right: 10vw;
 
             }
             .survey-sub-head .text-break{
@@ -1042,20 +1055,21 @@ footer{
             .survey-p-text{
                 width: 381px;
                 height: 215px;
-                font-size: 24px;
-                margin-left: 53%;
+                font-size: 23px;
+                margin-left: 50%;
                 margin-right: auto;
-                margin-top: 26px;
+                margin-top: 1vw;
+                position: relative;
                 line-height: 1.55;
 
             }
             .survey-cta-link{ 
-                font-size: 35px;
+                font-size: 30px;
                 line-height: 1.11;
                 letter-spacing: -1.5px;
                 color: #0fafb4;
                 margin-left: 26%;
-                margin-top: 140px;
+                margin-top: 150px;
                 }
 
 
@@ -1117,13 +1131,24 @@ footer{
             }
         }
 
-
+            @media (max-width:1025px){
+                p.introduction-text{
+                    width: 240px;
+                    height: 230px;
+                    font-size: 18px;
+                    line-height: 1.5;
+                    letter-spacing: -0.86px;
+                    margin-left: 58%;
+                    margin-right: auto;
+                    margin-top: 90px;
+                }
+            }
                 @media only screen and (max-width:414px){
 
                                             /*-----For all the section-----*/    
                         body{
-                            width: 414px;
-                            overflow-x: hidden;
+                            width: 100vw;
+                            overflow-x: hidden!important;
                         }
                         h6{
                             width: auto;
@@ -1144,7 +1169,7 @@ footer{
                             line-height: 1.05;
                         }
                     
-                    .background-box{
+                        .background-box{
                             z-index: -1000;
                             position: absolute;
                             width: 100vw;
@@ -1203,14 +1228,14 @@ footer{
                             padding-top: 100px;
                         }
                         .story-head-1{
-                            width: 276px;
+                            width: auto;
                             height: 276px;
-                            font-size: 81px;
+                            font-size: 4.5em;
                             line-height: 0.85;
-                            letter-spacing: -3.47px;
+                            letter-spacing: -0.47px;
                             text-align: center;
-                            margin-left: 69px;
-                            margin-right: 69px;
+                            margin-left: 15%;
+                            margin-right: 20%;
                             margin-top: 27px;
 
                         }
@@ -1218,7 +1243,6 @@ footer{
                         .story-head-2{
                             width: 280px;
                             height: 281px;
-                            font-size: 32px;
                             line-height: 1.47;
                             letter-spacing: -1.37px;
                             text-align: center;
@@ -1245,29 +1269,30 @@ footer{
                             display: block !important;
                         }
                         .story-p-text-1{
-                            width: 250px;
-                            height: 257px;
-                            font-size: 21px;
+                            width: auto;
+                            height: auto;
+                            font-size: 1.0em;
                             line-height: 1.5;
                             letter-spacing: -0.86px;
-                            margin-left: 110px;
-                            margin-right: 17px;
+                            margin-left: 27vw;
+                            margin-right: 4.1vw;
+                            margin-top: 10vw;
                         }
 
 
                         .story-p-text-2{
                             width: 330px;
                             height: 115px;
-                            font-size: 21px;
+                            font-size: 1.1em;
                             line-height: 1.5;
                             letter-spacing: -0.86px;
-                            margin: 0px;
-                            padding-top: 50px;
+                            margin-left: 0px;
+                            margin-top: 60vw;
                         }
                         .story-body article .story-sub-head-2 {
-                            width: 316px;
+                            width: auto;
                             height: 176px;
-                            font-size: 44px;
+                            font-size: 2.7em;
                             line-height: 1.05;
                             letter-spacing: -1.8px;
                             color: #0fafb4;
@@ -1286,7 +1311,7 @@ footer{
                             margin-right: auto;
                         }
                         .development-text-box{
-                            margin-top: 121px;
+                            margin-top: 30vw;
                             margin-left: 20vw;
                             margin-right: 20vw;
                         }
@@ -1322,47 +1347,47 @@ footer{
 
                         }
                         p.introduction-text{
-                            width: 220px;
-                            height: 230px;
-                            font-size: 19px;
+                            width: 60%;
+                            height: 260px;
+                            font-size: 1.1em;
                               line-height: 1.52;
                               letter-spacing: -0.9px;
-                            margin-left: 25%;
-                            margin-right: 25%;
-                            margin-top: 420px;
+                            margin-left: 20%;
+                            margin-right: 20%;
+                            margin-top: 114%;
 
                         }
 
                         .development-buttons{
-                            z-index: 20;
-                            width: 68px;
-                            height: 63px;
-                            font-size: 12px;
+                            z-index: 22;
+                            width: auto;
+                            height: auto;
+                            font-size: 0.75em;
                             text-align: center;
-                            margin-left: 10px;
-                            margin-top: 0px;
+                            margin-left: 0;
+                            margin-top: -32vh;
                         }
 
                         .august-2019{
                             position: static;
-                            margin-right: 21px;
-                            margin-top: -80px;
+                            margin-left: -75%;
+                            margin-top: 0;
                         }
                         .december-2019{
-                            margin-left: 90px;
+                            margin-left: -40%;
                             top: -34px;
                         }
 
                         .january-2020{
-                            margin-left: 180px;
+                            margin-left: 0%;
                             top: -68px;
                         }
                         .march-2020{
-                            margin-left: 266px;
+                            margin-left: 40%;
                             top: -102px;
                         }
                         .july-2020{
-                            margin-left: 355px;
+                            margin-left: 85%;
                             top: -136px;
                             margin-right: 10px;
                         }
@@ -1376,7 +1401,7 @@ footer{
                         p.who-we-are-sub-head{
                             width: 340px;
                             height: 285px;
-                            font-size: 45px;
+                            font-size: 2.5em;
                               line-height: 1.11;
                             margin-top: 57px;
                             margin-left: auto;
@@ -1387,7 +1412,7 @@ footer{
                         p.who-we-are-p-text{
                               width: 328px;
                               height: 256px;
-                              font-size: 22px;
+                              font-size: 1.3em;
                               text-align: center;
                             margin-left: auto;
                             margin-right: auto;
@@ -1396,9 +1421,9 @@ footer{
                         }
                     
                         .who-we-are-body aside{
-                              width: 300px;
-                              height: 385px;
-                              font-size: 51px;
+                              width: 80%;
+                              height: 70vh;
+                              font-size: 2.8em;
                               line-height: 1.02;
                               letter-spacing: -1.47px;
                         }
@@ -1409,27 +1434,28 @@ footer{
 
                                         /*-----Interview booking-----*/
                         .interview-booking-body{
-                            margin-top: 80px;
+                            margin-top: 0px;
                             padding-top: 120px;
                         }
                         .interview-booking-sub-head{
-                            width: 384px;
-                            font-size: 64px;
+                            width: auto;
+                            height: auto;
+                            font-size: 3.1em;
                             line-height: 0.95;
                             letter-spacing: -2.66px;
-                            margin-left: 22px;
-                            margin-right: 10px;
+                            margin-left: 5%;
+                            margin-right: 5%;
                             margin-top: 453px;
 
                         }
                     
 
                         .interview-booking-p-text{
-                            width: 365px;
+                            width: auto;
                             height: 318px;
-                            font-size: 24px;
-                            margin-left: 24px;
-                            margin-right: 10px;
+                            font-size: 1.35em;
+                            margin-left: 5%;
+                            margin-right: 5%;
                         }
 
                                             /*-----Survey-----*/
@@ -1438,32 +1464,32 @@ footer{
                             padding-top: 120px;
                         }
                         .survey-sub-head{
-                            width: 365px;
-                            height: 447px;
-                            font-size: 59px;
+                            width: auto;
+                            height: auto;
+                            font-size: 2.6em;
                             line-height: 0.98;
                             letter-spacing: -2.53px;
-                            margin-left: 24px;
-                            margin-right: 10px;
+                            margin-left: 5%;
+                            margin-right: 5%;
 
                         }
                         .survey-sub-head .text-break{
                             display: block!important;
                         }
                         .survey-p-text{
-                            width: 365px;
+                            width: 80vw;
                             height: 175px;
                             font-family: PTSerif-Caption;
-                            font-size: 22px;
-                            margin-left: 24px;
-                            margin-right: 10px;
+                            font-size: 1.2em;
+                            margin-left: 10vw;
+                            margin-right: 10vw;
                             margin-top: 210px;
                             line-height: 1.55;
                             letter-spacing: -0.94px;
 
                         }
                         .survey-cta-link{ 
-                            width: 192px;
+                            width: 80vw;
                             height: 39px;
                             font-family: test-sans;
                             font-size: 32px;
@@ -1471,7 +1497,7 @@ footer{
                             letter-spacing: -1.5px;
                             color: #0fafb4;
                             margin-left: 40%;
-                            margin-top: 107px;
+                            margin-top: 31vw;
                         }
                     
 
@@ -1539,7 +1565,7 @@ footer{
 
                                                     /*-----For all the section-----*/    
                                 body{
-                                    width: 360px;
+                                    width: 100vw;
                                     overflow-x: hidden;
                                 }
                                 h6{
@@ -1559,14 +1585,20 @@ footer{
                                     font-size: 35px;
                                     line-height: 1.03;
                                 }
+                                .background-box{
+                                    z-index: -1000;
+                                    position: absolute;
+                                    width: 100vw;
+                                    height: 8450px;
+                                }
 
                                                     /*-----Navigation-----*/
 
                                 .Navigation{
                                     position: fixed;
-                                    width: auto;
+                                    width: 95vw;
                                     top: 25px;
-                                    margin-left: 20px;
+                                    margin-left: 5vw;
                                     margin-right: 0px;
                                     font-size: 22px;
                                     position: fixed;
@@ -1612,28 +1644,28 @@ footer{
                                     padding-top: 120px;
                                 }
                                 .story-head-1{
-                                    width: 276px;
+                                    width: 80vw;
                                     height: 276px;
-                                    font-size: 81px;
+                                    font-size: 4em;
                                     line-height: 0.85;
-                                    letter-spacing: -3.47px;
+                                    letter-spacing: -0.47px;
                                     text-align: center;
-                                    margin-left: 41px;
-                                    margin-right: 41px;
+                                    margin-left: 10vw;
+                                    margin-right: 10vw;
                                     margin-top: 27px;
 
                                 }
 
                                 .story-head-2{
-                                    width: 291px;
+                                    width: 90vw;
                                     height: 281px;
-                                    font-size: 34px;
+                                    font-size: 1.9em;
                                     line-height: 1.47;
                                     letter-spacing: -1.37px;
                                     text-align: center;
-                                    margin-left: 33px;
-                                    margin-right: 33px;
-                                    margin-top: 285px;
+                                    margin-left: 5vw;
+                                    margin-right: 5vw;
+                                    margin-top: 265px;
                                 }
                                 .story-body article {
                                     margin-left: 27px;
@@ -1641,10 +1673,10 @@ footer{
 
                                 }
                                 .story-body article .story-sub-head-1 {
-                                    width: 291px;
+                                    width: 90vw;
                                     height: 152px;
                                     font-family: PTSerif-Caption;
-                                    font-size: 44px;
+                                    font-size: 2.8em;
                                     font-weight: normal;
                                     font-stretch: normal;
                                     font-style: normal;
@@ -1654,32 +1686,34 @@ footer{
                                     display: block !important;
                                 }
                                 .story-p-text-1{
-                                    width: 250px;
+                                    width: 70vw;
                                     height: 257px;
-                                    font-size: 20px;
+                                    font-size: 1em;
                                     line-height: 1.5;
                                     letter-spacing: -0.86px;
-                                    margin-left: 50px;
-                                    margin-right: 24px;
+                                    margin-left: 15vw;
+                                    margin-right: 5vw;
                                 }
 
 
                                 .story-p-text-2{
-                                    width: 310px;
+                                    width: 80vw;
                                     height: 115px;
-                                    font-size: 20px;
+                                    font-size: 1em;
                                     line-height: 1.5;
                                     letter-spacing: -0.86px;
                                     margin: 0px;
+                                    margin-top: 10vh;
                                 }
                                 .story-body article .story-sub-head-2 {
-                                    width: 316px;
-                                    height: 176px;
-                                    font-size: 42px;
+                                    width: 90vw;
+                                    height: auto;
+                                    font-size: 2.5em;
                                     line-height: 1.05;
                                     letter-spacing: -1.8px;
                                     color: #0fafb4;
-                                    margin-left: 40px;
+                                    margin-left: 0vw;
+                                    margin-top: 5vh;
                                 }
 
                                                 /*-----Development Process-----*/
@@ -1694,13 +1728,14 @@ footer{
                                     margin-right: auto;
                                 }
                                 .development-text-box{
-                                    margin-top: 121px;
-                                    margin-left: 63px;
-                                    margin-right: 63px;
+                                    margin-top: 30vw;
+                                    margin-left: 10vw;
+                                    margin-right: 10vw;
+                                    position: relative;
                                 }
 
                                 p.year-2019{
-                                    width: 99px;
+                                    width: 80vw;
                                     height: 49px;
                                     font-family: PTSerif-Caption;
                                     font-size: 38px;
@@ -1710,10 +1745,10 @@ footer{
                                     line-height: 0.97;
                                     letter-spacing: -1.63px;
                                     color: #08ba6e;
-                                    margin-left: 1vw;
+                                    margin-left: 0vw;
                                 }
                                 p.month-august{
-                                    width: 270px;
+                                    width: 80vw;
                                     height: 81px;
                                     font-family: PTSerif-Caption;
                                     font-size: 67px;
@@ -1729,13 +1764,13 @@ footer{
                                 }
                                 p.introduction-text{
                                     width: auto;
-                                    height: 251px;
-                                    font-size: 21px;
+                                    height: auto;
+                                    font-size: 1em;
                                       line-height: 1.52;
                                       letter-spacing: -0.9px;
-                                    margin-left: 15%;
-                                    margin-right: 15%;
-                                    margin-top: 400px;
+                                    margin-left: 20%;
+                                    margin-right: 20%;
+                                    margin-top: 127vw;
 
                                 }
 
@@ -1744,8 +1779,8 @@ footer{
                                     height: 57px;
                                     font-size: 11px;
                                     text-align: center;
-                                    margin-left: 10px;
-                                    margin-top: 0px;
+                                    margin-left: 10vw;
+                                    margin-top: -32vw;
                                 }
                                 .august-2019{
                                     position: static;
@@ -1753,20 +1788,20 @@ footer{
                                     margin-top: -80px;
                                 }
                                 .december-2019{
-                                    margin-left: 70px;
+                                    margin-left: 15vw;
                                     top: -31px;
                                 }
 
                                 .january-2020{
-                                    margin-left: 138px;
+                                    margin-left: 35vw;
                                     top: -62px;
                                 }
                                 .march-2020{
-                                    margin-left: 206px;
+                                    margin-left: 55vw;
                                     top: -93px;
                                 }
                                 .july-2020{
-                                    margin-left: 274px;
+                                    margin-left: 78vw;
                                     top: -124px;
                                     margin-right: 10px;
                                 }
@@ -1778,28 +1813,27 @@ footer{
                                     padding-top: 120px;
                                 }
                                 p.who-we-are-sub-head{
-                                      width: 330px;
-                                      height: 195px;
-                                      font-size: 35px;
+                                      width: 80vw;
+                                    font-size: 2.2em;
                                       line-height: 1.11;
                                     margin-top: 65px;
-                                    margin-left: 10px;
-                                    margin-right: 20px;
+                                    margin-left: 10vw;
+                                    margin-right: 10vw;
 
                                 }
                                 p.who-we-are-p-text{
-                                      width: 328px;
+                                      width: 90vw;
                                       height: 256px;
-                                      font-size: 22px;
+                                      font-size: 1.2em;
                                       text-align: center;
-                                    margin-left: 10px;
-                                    margin-right: 16px;
+                                    margin-left: 5vw;
+                                    margin-right: 5vw;
 
                                 }
                                 .who-we-are-body aside{
-                                      width: 300px;
-                                      height: 385px;
-                                      font-size: 51px;
+                                      width: 90vw;
+                                      height: auto;
+                                      font-size: 2.6em;
                                       line-height: 1.02;
                                       letter-spacing: -1.47px;
                                 }
@@ -1810,51 +1844,64 @@ footer{
 
                                                 /*-----Interview booking-----*/
                                 .interview-booking-body{
-                                    margin-top: -22px;
+                                    margin-top: 0vh;
                                     padding-top: 120px;
                                 }
                                 .interview-booking-sub-head{
-                                    width: 316px;
+                                    width: 88vw;
                                     height: 102px;
                                     font-family: PTSerif-Caption;
-                                    font-size: 51px;
+                                    font-size: 2.9em;
                                     line-height: 1;
                                     letter-spacing: -2.19px;
-                                    margin-left: 22px;
+                                    margin-left: 6vw;
 
                                 }
                                 .interview-booking-p-text{
-                                    width: 300px;
+                                    width: 90vw;
                                     height: 318px;
-                                    font-size: 22px;
-                                    margin-left: 24px;
-                                    margin-right: 10px;
+                                    font-size: 1.2em;
+                                    margin-left: 5vw;
+                                    margin-right: 5vw;
                                 }
 
                                                     /*-----Survey-----*/
                                 .survey-body{
-                                    margin-top: -15px;
+                                    margin-top: 8vh;
                                     padding-top: 120px;
                                 }
                                 .survey-sub-head{
-                                    width: 300px;
-                                    height: 447px;
-                                    font-size: 50px;
+                                    width: 90vw;
+                                    height: auto;
+                                    font-size: 2.7em;
                                     line-height: 1.1;
                                     letter-spacing: -2.14px;
-                                    margin-left: 24px;
-                                    margin-right: 10px;
+                                    margin-left: 5vw;
+                                    margin-right: 5vw;
+                                    margin-top: 6vh;
 
                                 }
                                 .survey-p-text{
-                                    width: 300px;
+                                    width: 90vw;
                                     height: 214px;
                                     font-family: PTSerif-Caption;
-                                    font-size: 22px;
-                                    margin-left: 24px;
-                                    margin-right: 10px;
+                                    font-size: 1.2em;
+                                    margin-left: 5vw;
+                                    margin-right: 5vw;
                                     margin-top: 26px;
 
+                                }
+                                .survey-cta-link{ 
+                                    width: auto;
+                                    height: auto;
+                                    font-family: test-sans;
+                                    font-size: 1.5em;
+                                    line-height: 1.11;
+                                    letter-spacing: -1.5px;
+                                    color: #0fafb4;
+                                    margin-left: 41%;
+                                    margin-top: 38vh;
+                                    z-index: 10;
                                 }
 
                                                      /*-----Breathing Abssy-----*/
@@ -1864,9 +1911,9 @@ footer{
                                     padding-top: 120px;
                                 }
                                 .breathing-abssy-p-text{
-                                    width: 266px;
+                                    width: 70vw;
                                     height: 674px;
-                                    font-size: 22px;
+                                    font-size: 1.03em;
                                     text-align: left;
                                     margin-left: 24px;
                                     margin-right: auto;
@@ -1882,32 +1929,33 @@ footer{
                                 }
 
                                 .Global{
-                                    top: -58px;
+                                    top: -20vh;
                                     left: 0px;
                                 }
                                 .atrium2amgmailcom{
                                     position: relative;
-                                    top: -142px;
-                                    left: 142px;
+                                    top: -210px;
+                                    left: 50vw;
+                                    width: 30vw;
                                 }
 
                                 .Republic-of-Korea-S{
-                                    top: -45px;
+                                    top: -20vh;
                                     left: 0px;
                                 }
                                 .Atrium-articles{
-                                    top: -215px;
+                                    top: -283px;
                                     left: 0px;
                                 }
                                 .Group-of-people-who{
-                                    top: -45px;
+                                    top: -20vh;
                                     left: 0px;
                                     width: auto;
                                     margin-right: 10px;
 
                                 }
                                 .Powered-by-Hanwha-gr{
-                                    top:0px;
+                                    top: -12vh;
                                     left: 0px;
                                 }
                             }

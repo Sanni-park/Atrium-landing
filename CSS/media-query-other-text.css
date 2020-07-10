@@ -1,0 +1,671 @@
+@media(max-width:8000px) and (min-width:1800px){
+        * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+    body{
+        width: 100vw;
+        overflow-x: hidden !important;
+    }
+    html {
+
+    }
+    section{
+        width: 100vw;
+    }
+    header{
+        width: 100vw;
+    }
+    .wrapper{
+        width: 100vw;
+    }
+
+
+                        /*-----For all the section-----*/
+    .background-box{
+        z-index: -1000;
+        position: absolute;
+        width: 100vw;
+        height: 7500px;
+        top: 0px;
+        background-image: linear-gradient(to bottom, #f9fdff, #f0f9ff);
+    }
+    h6 {
+        width: 100vs;
+        height: 33px;
+        font-family: test-sans, sans-serif;
+        font-size: 2.3em;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+        margin-left: 28%;
+        margin-right: 28%;
+        margin-bottom: 5px;
+        margin-top: 25px;
+
+
+    }
+    h1{
+        width: 100vs;
+        height: 57px;
+        font-family: PTSerif-Caption, serif;
+        font-size: 4em;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #003739;
+        margin-left: 28%;
+        margin-right: 28%;
+        margin-bottom: 2%;
+        margin-top: 0.5%;
+        }
+    }
+
+    p{
+
+    }
+
+                        /*-----Navigation-----*/
+    #navbar {
+        z-index: 1000;
+        position: fixed;
+        display: block;
+        transition: top 0.8s;
+    }
+    #navbar a {
+        float: left;
+
+    }
+    .Navigation{
+        position: fixed;
+        width: 100vw;
+        font-family: test-sans, sans-serif;
+        top: 25px;
+        margin-left: 58px;
+        margin-right: 50px;
+        margin-top: 25px;
+        font-size: 2em;
+
+    }
+
+    .Navigation a:link{
+        color: #003739;
+        text-decoration: none;
+    }
+
+    .Navigation a:hover {
+        color: #0fafb4;
+    }
+    .Navigation a:visited{
+        color: #003739;
+    }
+
+    .Story{
+        margin-right: 68px;
+    }
+    .Development{
+        margin-right: 68px;
+    }
+    .Who-are-we{
+        margin-right: 68px;
+    }
+    .Interview-Booking{
+        margin-right: 68px;
+    }
+    .Survey{
+        margin-right: 68px;
+    }
+    .Breathing-Abssy{
+        margin-left: 82vw;
+        top: -17px;
+        position: relative;
+    }
+
+    img{
+        position: absolute;
+        height: auto;
+        display: inline;
+    }
+
+                        /*-----Story-----*/
+                        /*-----Story-Image-user-faces----*/
+
+
+                        /*-----Story-Image-----*/
+
+
+                        /*-----Story-Text-----*/
+    .story-body{
+        margin-top: 454px;
+        padding-top: 50px;
+    }
+    .story-head-1{
+        width: 192px;
+        height: 180px;
+        font-family: PTSerif-Caption;
+        font-size: 4.2em;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.9;
+        letter-spacing: -2.0px;
+        color: #0091ff;
+        margin-left: 30vw;
+        bottom:1ex;
+        position: static;
+
+    }
+
+    .story-head-2{
+        width: 30vw;
+        height: 188px;
+        font-family: PTSerif-Caption;
+        font-size: 2.3em;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: -1.0px;
+        color: #0fafb4;
+        margin-left: 45vw;
+        top: -180px;
+        position: relative;
+    }
+    .story-body article {
+        margin-left: 24vw;
+        margin-right: 24vw;
+        float: center;
+        margin-top: 280px;
+
+    }
+    .story-body article .story-sub-head-1 {
+        width: 40vw;
+        height: 4vw;
+        font-family: PTSerif-Caption;
+        font-size: 4em;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.98;
+        letter-spacing: -1.89px;
+    }
+    .text-break{
+        display: none !important;
+    }
+
+    .story-p-text-1{
+        width: 30vw;
+        height: 148px;
+        font-family: PTSerif-Caption;
+        font-size: 2.2em;
+    }
+
+
+    .story-p-text-2{
+        width: 30vw;
+        height: 170px;
+        font-family: PTSerif-Caption;
+        font-size: 2.2em;
+        font-style: italic;
+        line-height: 1.32;
+        letter-spacing: -1.2px;
+        color: rgba(0, 0, 0, 0.5);
+        margin-left: 25vw;
+        margin-top: 10vw;
+    }
+    .story-body article .story-sub-head-2 {
+        width: 30vw;
+        height: auto;
+        font-family: PTSerif-Caption;
+        font-size: 44px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.98;
+        letter-spacing: -1.89px;
+        color: #0fafb4;
+        margin-left: 25vw;
+        margin-top: 3vw;
+    }
+
+
+
+                        /*-----Development Process-----*/
+                        /*-----Development-Image-----*/
+
+
+
+
+
+                        /*-----Development-Text-----*/
+    .development-body{
+        margin-top: 250px;
+        padding-top: 50px;
+    }
+    .development-text-box{
+        margin-top: 194px;
+        margin-left: 25vw;
+    }
+
+    p.year-2019{
+        width: 99px;
+        height: 49px;
+        font-family: PTSerif-Caption;
+        font-size: 38px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.97;
+        letter-spacing: -1.63px;
+        color: #08ba6e;
+        margin-left: 1vw;
+    }
+    p.month-august{
+        width: 270px;
+        height: 81px;
+        font-family: PTSerif-Caption;
+        font-size: 67px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.82;
+        letter-spacing: -2.87px;
+        color: #08ba6e;
+        margin-left: 0vw;
+        position: static;
+
+    }
+    p.introduction-text{
+      width: 300px;
+      height: 230px;
+      font-family: PTSerif-Caption;
+      font-size: 23px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: italic;
+      line-height: 1.6;
+      letter-spacing: -0.86px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.5);
+        margin-left: 54.5vw;
+        position: relative;
+        top: -230px;
+
+    }
+    p.introduction-text a:link, a:visited{
+        width: 153px;
+        height: 49px;
+        font-family: PTSerif-Caption;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.46;
+        letter-spacing: -0.56px;
+        text-align: center;
+        color: #08ba6e;
+        text-decoration: none;
+    }
+
+    p.introduction-text a:hover{
+        color: #0fafb4;
+        text-decoration: underline;
+    }
+
+    .development-buttons{
+        z-index: 3;
+        font-family: Magnolia-Script, sans-serif;
+        width: 87px;
+        height: 82px;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: white;
+        margin-left: 18vw;
+        margin-top: 60px;
+        text-shadow: 2px 2px 4px #0fa4a8;
+    }
+    .august-2019{
+        cursor: zoom-in;
+        position: static;
+        margin-right: 40%;
+    }
+    .december-2019{
+        cursor: zoom-in;
+        position: relative;
+        text-align: center;
+        margin-left: 135%;
+        top: -40px;
+    }
+
+    .january-2020{
+        cursor: zoom-in;
+        position: relative;
+        text-align: center;
+        margin-left: 275%;
+        top: -80px;
+    }
+    .march-2020{
+        cursor: zoom-in;
+        position: relative;
+        text-align: center;
+        margin-left: 420%;
+        top: -120px;
+    }
+    .july-2020{
+        cursor: zoom-in;
+        position: relative;
+        text-align: center;
+        margin-left: 570%;
+        top: -160px;
+    }
+
+                        /*-----Who are we-----*/
+                        /*-----Who are we-image-----*/
+
+
+
+                        /*-----Who are we-text-----*/
+    .who-we-are-body{
+        margin-top: 250px;
+        padding-top: 50px;
+    }
+    p.who-we-are-sub-head{
+        width: 559px;
+        height: 117px;
+        font-family: PTSerif-Caption;
+        font-size: 35px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: -1.5px;
+        text-align: center;
+        color: #08ba6e;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    p.who-we-are-p-text{
+      width: auto;
+      height: 223px;
+      font-family: PTSerif-Caption;
+      font-size: 22px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: italic;
+      line-height: 1.55;
+      letter-spacing: -0.94px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.5);
+        margin-top: 182px;
+        margin-left: 58vw;
+        margin-right: 12vw;
+
+    }
+    .who-we-are-body aside{
+      width: 988px;
+      height: 312px;
+      font-family: PTSerif-Caption;
+      font-size: 66px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.18;
+      letter-spacing: -1.9px;
+      text-align: center;
+      color: #08ba6e;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 169px;
+    }
+    aside strong{
+        color: #003739;
+        font-weight: 300;
+    }
+                        /*-----Interview booking-----*/
+                        /*-----Interview booking-image-----*/
+
+
+                        /*-----Interview booking-text-----*/
+    .interview-booking-body{
+        margin-top: 350px;
+        padding-top: 50px;
+    }
+    .interview-booking-sub-head{
+      width: 470px;
+      height: 126px;
+      font-family: PTSerif-Caption;
+      font-size: 68px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.93;
+      letter-spacing: -2.91px;
+      color: #08ba6e;
+        margin-top: 95px;
+        margin-left: 21.5vw;
+
+    }
+    .interview-booking-p-text{
+      width: 444px;
+      height: 262px;
+      font-family: PTSerif-Caption;
+      font-size: 22px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.55;
+      letter-spacing: -0.94px;
+      color: #003739;
+        margin-top: 31px;
+        margin-left: 21.5vw;
+    }
+    .interview-booking-p-text a:link, a:visited{
+        color: #08ba6e;
+        text-decoration: none;
+    }
+    .interview-booking-p-text a:hover{
+         color: #0fafb4;
+        text-decoration: underline;
+    }
+
+                        /*-----Survey-----*/
+                        /*-----Survey-image-----*/
+
+                        /*-----Survey-text-----*/
+    .survey-body{
+        margin-top: 250px;
+        padding-top: 50px;
+    }
+    .survey-sub-head{
+      width: 817px;
+      height: 177px;
+      font-family: PTSerif-Caption;
+      font-size: 59px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: -2.53px;
+      color: #08ba6e;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+
+    }
+    .survey-cta-link{ 
+        width: 192px;
+        height: 39px;
+        font-family: PTSerif-Caption;
+        font-size: 30px;
+        line-height: 1.11;
+        letter-spacing: -1.5px;
+        color: #0fafb4;
+        margin-left: 33%;
+        margin-top: 157px;
+        position: absolute;
+        z-index: 9999;
+    }
+
+    .survey-p-text{
+        width: 381px;
+        height: 215px;
+        font-family: PTSerif-Caption;
+        font-size: 23px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.55;
+        letter-spacing: -0.94px;
+        color: #003739;
+        margin-top: 40px;
+        margin-left: 52.2vw;
+
+    }
+
+                        /*-----Breathing Abssy-----*/
+                        /*-----Breathing Abssyp-image----*/
+
+
+                        /*-----Breathing Abssyp-text----*/
+    .breathing-abssy-body{
+        margin-top: 170px;
+        padding-top: 50px;
+    }
+    .breathing-abssy-p-text{
+      width: 514px;
+      height: 382px;
+      font-family: PTSerif-Caption;
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.55;
+      letter-spacing: -0.94px;
+      text-align: center;
+      color: #0fafb4;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .breathing-abssy-p-text strong{
+        font-weight: bold;
+        font-style: italic;
+
+    }
+
+                        /*-----Footer-----*/
+                        /*-----Footer-image-----*/
+
+
+
+
+
+                        /*-----Footer-text----*/
+    footer{
+        font-family: test-sans, sans-serif;
+        margin: 0;
+        margin-left: 17%;
+        margin-right: 15.8%;
+        margin-top: 615px;
+        margin-bottom: 8%;
+        object-fit: contain;
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.5);
+        width: 100vs;
+
+    }
+
+    .atrium2amgmailcom {
+        width: 189px;
+        height: 24px;
+        object-fit: contain;
+        position: static;
+        top: 0px;
+        left: 0px;
+        font-weight: bold;
+    }
+    .atrium2amgmailcom a:link, a:visited{
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+    }
+    .atrium2amgmailcom a:hover{
+        color: #0fafb4;
+    }
+
+
+    .Global {
+        width: 76px;
+        height: 24px;
+        object-fit: contain;
+        position: relative;
+        left: 422px;
+        top: -24px;
+        font-weight: bold;
+
+
+
+    }
+    .Republic-of-Korea-S {
+      width: 197px;
+      height: 24px;
+        left: 660px;
+        top:-48px;
+        position: relative;
+    }
+
+    .Atrium-articles {
+      width: 123px;
+      height: 24px;
+        object-fit: contain;
+        position: relative;
+        top:56px;
+        font-weight: bold;
+
+
+    }
+
+    .Group-of-people-who{
+        width: 39.1%;
+        height: 1.2%;
+        position: relative;
+        top: 32px;
+        left: 422px;
+        line-height: 1.47;
+    }
+
+    .Powered-by-Hanwha-gr {
+        width: 213px;
+        height: 24px;
+        object-fit: contain;
+        position: relative;
+        top:65px;
+        left: 422px;
+
+    }
+
+
+
+}

@@ -146,9 +146,9 @@ svg rect:hover {
                 width: 130px;
                 transform: rotate(0deg);
                 opacity: 1;
-                margin-left: 25%;
+                margin-left: 5%;
                 margin-right: auto;
-                margin-top: 150px ;
+                margin-top: -250px ;
             }
             .plants-1-copy{
                 width: 130px;
@@ -179,6 +179,7 @@ svg rect:hover {
                 margin-left: 87%;
                 margin-right: auto ;
                 margin-top: -600px;
+                display: none;
             }
             .coral-2{
                 width: 403px;
@@ -444,3 +445,72 @@ svg rect:hover {
                                 fill: #0fafb4;
                             }
                 }
+
+                            @media(max-width:360px){
+                                        .coral-2{
+                                            z-index: 0;
+                                            width: 50vw;
+                                            margin-left: -3%;
+                                            margin-right: auto ;
+                                            margin-top: -10vh;
+                                        }
+                                        .coral-6{
+                                            z-index: 0;
+                                            width: 25vw;
+                                            transform: rotate(21deg);
+                                            opacity: 0.75;
+                                            margin-left: 9%;
+                                            margin-right: auto ;
+                                            margin-top: -3vh;
+                                        }
+
+                                        .coral-10{
+                                            width: 30vw;
+                                            margin-left: 3%;
+                                            margin-right: auto ;
+                                            margin-top: 5vh;
+
+                                        }
+                                        .plants-15-alium{
+                                            display: block !important;
+                                            width: 30vw;
+                                            margin-left: 33%;
+                                            margin-top: 9vh;
+                                        }
+
+                                        .Atrium-logo-Black{
+                                            width: 222px;
+                                            opacity: 0.73;
+                                            margin-left: 5%;
+                                            margin-top: 30vh;
+                                        }
+                                        .footer-medium{
+                                            width: 42px;
+                                            height: 42px;
+                                            margin-left: 12%;
+                                            margin-top: 80px;
+                                            color: aqua; 
+                                        }
+
+                                        svg{
+                                            width: 42px;
+                                            height: 42px;
+                                            margin-left: 8%;
+                                            margin-top: 42vh;
+                                            position: absolute;
+                                            display: inline-block;
+                                            fill : white;
+                                            background: black;
+                                            place-items: center center;
+                                        }
+                                        footer-img svg:hover {
+                                            fill: white;
+                                        }
+                                        svg rect{
+                                            fill: black;
+                                        }
+                                        svg rect:hover {
+                                            fill: #0fafb4;
+                                        }
+                            }
+            }

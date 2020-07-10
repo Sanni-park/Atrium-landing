@@ -72,7 +72,7 @@
                     width: 85%;
                     height: auto;
                     float: center;
-                    top: 2350px;
+                    top: 2450px;
                     display: inline-block;
                     align-items: center;
                     justify-content: center;
@@ -81,58 +81,58 @@
                 .shell-5{
                     z-index: -6;
                     width: 30px;
-                    margin-top: 600px;
+                    margin-top: 550px;
                     margin-left: 5.5%;
                 }
                 .shell-6 {
                     z-index: -6;
                     width: 30px;
-                    margin-top: 600px;
+                    margin-top: 550px;
                     margin-left: 26%;
                 }
                 .shell-7 {
                     z-index: -6;
                     width: 36px;
-                    margin-top: 600px;
+                    margin-top: 550px;
                     margin-left: 16%;
                 }
                 .shell-8 {
                     z-index: -6;
                     width: 48px;
-                    margin-top: 600px;
+                    margin-top: 550px;
                     margin-left: 35%;
                 }
                 .shell-8-copy {
                     z-index: -6;
                     width: 48px;
-                    margin-top: 600px;
+                    margin-top: 550px;
                     margin-left: 45.5%;
                 }
                 .shell-1 {
                     width: 103px;
                     margin-left: 32%;
-                    margin-top: 920px;
+                    margin-top: 860px;
                 }
                 .shell-2 {
                     width: 79px;
-                    margin-left: 43.2%;
-                    margin-top: 910px;
+                    margin-left: 44%;
+                    margin-top: 860px;
                 }
                 .shell-3 {
                     width: 96px;
                     margin-left: 23%;
-                    margin-top: 920px;
+                    margin-top: 860px;
                 }
                 .shell-4 {
                     z-index: -1;
                     width: 103px;
                     margin-left: 2%;
-                    margin-top: 910px;
+                    margin-top: 860px;
                 }
                 .shell-3-copy {
                     width: 96px;
                     margin-left: 13%;
-                    margin-top: 920px;
+                    margin-top: 860px;
                 }
         }
 
@@ -145,7 +145,7 @@
                                 width: 200%;
                                 height: auto;
                                 float: center;
-                                top: 2950px;
+                                top: 3050px;
                                 display: inline-block;
                                 align-items: center;
                                 justify-content: center;
@@ -190,27 +190,57 @@
                             .shell-1 {
                                 width: 82px;
                                 margin-left: 41%;
-                                margin-top: 1065px;
+                                margin-top: 230vw;
                             }
                             .shell-2 {
                                 width: 62px;
-                                margin-left: 85%;
-                                margin-top: 1060px;
+                                margin-left: 84%;
+                                margin-top: 230vw;
                             }
                             .shell-3 {
                                 width: 78px;
                                 margin-left: 62%;
-                                margin-top: 1065px;
+                                margin-top: 230vw;
                             }
                             .shell-4 {
                                 z-index: -1;
                                 width: 82px;
                                 margin-left: 0%;
-                                margin-top: 1060px;
+                                margin-top: 230vw;
                             }
                             .shell-3-copy {
                                 width: 78px;
                                 margin-left: 21%;
-                                margin-top: 1070px;
+                                margin-top: 230vw;
                             }
                     }
+
+
+                                @media(max-width:360px){
+                                    .shell-1 {
+                                        width: 82px;
+                                        margin-left: 40%;
+                                        margin-top: 133vh;
+                                    }
+                                    .shell-2 {
+                                        width: 62px;
+                                        margin-left: 84%;
+                                        margin-top: 133vh;
+                                    }
+                                    .shell-3 {
+                                        width: 78px;
+                                        margin-left: 62%;
+                                        margin-top: 133vh;
+                                    }
+                                    .shell-4 {
+                                        z-index: -1;
+                                        width: 82px;
+                                        margin-left: 0%;
+                                        margin-top: 133vh;
+                                    }
+                                    .shell-3-copy {
+                                        width: 78px;
+                                        margin-left: 21%;
+                                        margin-top: 133vh;
+                                    }
+                                }
