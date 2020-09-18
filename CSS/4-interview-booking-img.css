@@ -3,33 +3,51 @@
             margin-left: 57%;
             margin-right: auto;
             margin-top: 628px;
+            animation: blinker 2s linear infinite;
         }
         .Interview-booking-rosie {
             width: 347px;
             margin-left: 57%;
             margin-right: auto;
             margin-top: 772px;
+            filter: drop-shadow(0 0 0px rgb(255, 255, 255));
+            
+        }
+        .Interview-booking-rosie:hover{
+            filter: drop-shadow(0 0 20px rgb(170, 252, 226));
+            transition: all 0.3s ease 0s;
+
         }
         .User-faces-charactors_0009_GL-115 {
             width: 103px;
             margin-left: 86%;
             margin-right: auto;
             margin-top: 732px;
+            place-items: center center;
+            animation: interview-user-faces 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            transform-origin: inherit;
         }
         .User-faces-charactors_0053_GL-6 {
             width: 88px;
             margin-left: 80%;
             margin-right: auto;
             margin-top: 1000px;
-            transform: scaleX(-1);
-            filter: FlipH;
-            -ms-filter: "FlipH";
+            animation: interview-user-faces 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            transform-origin: inherit;
         }
         .User-faces-charactors_0045_GL-29 {
             width: 100px;
             margin-left: 12%;
             margin-right: auto;
             margin-top: 911px;
+            animation: interview-user-faces 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            transform-origin: inherit;
         }
 
 
@@ -57,7 +75,7 @@
                             margin-left: 80%;
                             margin-right: auto;
                             margin-top: 1000px;
-                            transform: scaleX(-1);
+                            transform: scaleX(1);
                             filter: FlipH;
                             -ms-filter: "FlipH";
                         }
@@ -68,31 +86,30 @@
                             margin-top: 961px;
                         }
                 }
-
-                            @media only screen and (max-width:414px){
+            @media only screen and (max-width:620px) and (min-width:415px){
                                 .Interview-booking-saying {
-                                    width: 90vw;
-                                    margin-left: 5vw;
+                                    width: 70vw;
+                                    margin-left: 17vw;
                                     margin-right: auto;
-                                    margin-top: 80vw;
+                                    margin-top: 60vw;
                                 }
                                 .Interview-booking-rosie {
-                                    width: 90vw;
-                                    margin-left: 5vw;
+                                    min-width: 70vw;
+                                    margin-left: 17vw;
                                     margin-right: auto;
-                                    margin-top: 120vw;
+                                    margin-top: 90vw;
                                 }
                                 .User-faces-charactors_0009_GL-115 {
                                     width: 82px;
                                     margin-left: 78%;
                                     margin-right: auto;
-                                    margin-top: 280vw;
+                                    margin-top: 220vw;
                                 }
                                 .User-faces-charactors_0053_GL-6 {
                                     width: 72px;
                                     margin-left: 40%;
                                     margin-right: auto;
-                                    margin-top: 300vw;
+                                    margin-top: 240vw;
                                     transform: scaleX(1);
                                     filter: FlipH;
                                     -ms-filter: "FlipH";
@@ -101,34 +118,66 @@
                                     width: 80px;
                                     margin-left: 10%;
                                     margin-right: auto;
-                                    margin-top: 285vw;
+                                    margin-top: 225vw;
                                 }
                         }
+                                @media only screen and (max-width:414px){
+                                    .Interview-booking-saying {
+                                        width: 90vw;
+                                        margin-left: 5vw;
+                                        margin-right: auto;
+                                        margin-top: 80vw;
+                                    }
+                                    .Interview-booking-rosie {
+                                        width: 90vw;
+                                        margin-left: 5vw;
+                                        margin-right: auto;
+                                        margin-top: 120vw;
+                                    }
+                                    .User-faces-charactors_0009_GL-115 {
+                                        width: 82px;
+                                        margin-left: 78%;
+                                        margin-right: auto;
+                                        margin-top: 290vw;
+                                    }
+                                    .User-faces-charactors_0053_GL-6 {
+                                        width: 72px;
+                                        margin-left: 40%;
+                                        margin-right: auto;
+                                        margin-top: 295vw;
+                                    }
+                                    .User-faces-charactors_0045_GL-29 {
+                                        width: 80px;
+                                        margin-left: 5%;
+                                        margin-right: auto;
+                                        margin-top: 290vw;
+                                    }
+                            }
                                     @media only screen and (max-width:360px){
                                         
                                         .Interview-booking-saying {
                                             width: 90vw;
                                             margin-left: 5vw;
                                             margin-right: auto;
-                                            margin-top: 42vh;
+                                            margin-top: 80vw;
                                         }
                                         .Interview-booking-rosie {
                                             width: 90vw;
                                             margin-left: 5vw;
                                             margin-right: auto;
-                                            margin-top: 62vh;
+                                            margin-top: 120vw;
                                         }
                                         .User-faces-charactors_0009_GL-115 {
                                             width: 22vw;
                                             margin-left: 78%;
                                             margin-right: auto;
-                                            margin-top: 140vh;
+                                            margin-top: 300vw;
                                         }
                                         .User-faces-charactors_0053_GL-6 {
                                             width: 19vw;
                                             margin-left: 40%;
                                             margin-right: auto;
-                                            margin-top: 148vh;
+                                            margin-top: 320vw;
                                             transform: scaleX(1);
                                             filter: FlipH;
                                             -ms-filter: "FlipH";
@@ -137,8 +186,76 @@
                                             width: 20vw;
                                             margin-left: 10%;
                                             margin-right: auto;
-                                            margin-top: 146vh;
+                                            margin-top: 316vw;
                                         }
                                     }
                                 
+                                    
+                                        @media only screen and (max-width:330px){
+                                        
+                                        .Interview-booking-saying {
+                                            width: 90vw;
+                                            margin-left: 5vw;
+                                            margin-right: auto;
+                                            margin-top: 90vw;
+                                        }
+                                        .Interview-booking-rosie {
+                                            width: 90vw;
+                                            margin-left: 5vw;
+                                            margin-right: auto;
+                                            margin-top: 130vw;
+                                        }
+                                        .User-faces-charactors_0009_GL-115 {
+                                            width: 22vw;
+                                            margin-left: 78%;
+                                            margin-right: auto;
+                                            margin-top: 340vw;
+                                        }
+                                        .User-faces-charactors_0053_GL-6 {
+                                            width: 19vw;
+                                            margin-left: 40%;
+                                            margin-right: auto;
+                                            margin-top: 350vw;
+                                            transform: scaleX(1);
+                                            filter: FlipH;
+                                            -ms-filter: "FlipH";
+                                        }
+                                        .User-faces-charactors_0045_GL-29 {
+                                            width: 20vw;
+                                            margin-left: 10%;
+                                            margin-right: auto;
+                                            margin-top: 350vw;
+                                        }
+                                    }
+
+
+@media(max-width:3900px) and (min-width:2000px){
+    .Interview-booking-saying {
+        width: 20vw;
+        margin-top: 628px;
+    }
+    .Interview-booking-rosie {
+        width: 21vw;
+        margin-top: 820px;
+
+        }
+}
+
+@keyframes interview-user-faces{
+    10% {  -ms-transform:matrix(1, 0, 0, 1, 250, 0);
+            transform:matrix(1, 0, 0, 1, 0, 0) ; 
+    }
+    100% {  -ms-transform:matrix(1, 0, 0, 1, 250, 0);
+            transform:matrix(1, 0, 0, 1, 0, 20);
+    }
+}
+              
+@keyframes blinker {
+    0%{
+        opacity: 1;
+    }
+    20% {
+    opacity: 0;
+    }
+}
                                     

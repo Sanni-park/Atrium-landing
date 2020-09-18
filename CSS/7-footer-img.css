@@ -1,10 +1,21 @@
+
+
+
+.footer-img{
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: inherit;
+    animation-timing-function: ease-in;
+}
+
+
 .footer-img .plants-1{
     width: 160px;
     transform: rotate(0deg);
     opacity: 1;
     margin-left: 25%;
     margin-right: auto;
-    margin-top: 150px ;
+    margin-top: 150px ; 
 }
 .plants-1-copy{
     width: 160px;
@@ -22,6 +33,8 @@
     margin-left: 77%;
     margin-right: auto ;
     margin-top: 0px;
+    animation: footer 2s linear infinite;
+    
 }
 .plants-17{
     z-index: 10;
@@ -29,18 +42,22 @@
     opacity: 0.74;
     margin-left: 74%;
     margin-top: 190px;
+    animation: footer 1s linear infinite;
 }
 .plants-20{
     width: 187px;
     margin-left: 87%;
     margin-right: auto ;
     margin-top: -600px;
+    animation: footer 3s linear infinite;
 }
 .coral-2{
+    z-index: 1;
     width: 403px;
     margin-left: -2%;
     margin-right: auto ;
     margin-top: -150px;
+    animation: footer 4s linear infinite
 }
 .coral-3{
     z-index: 2;
@@ -71,6 +88,8 @@
     margin-left: 22%;
     margin-right: auto ;
     margin-top: -30px;
+    animation: coral6 3s linear infinite;
+    
 }
 
 .coral-10{
@@ -78,6 +97,7 @@
     margin-left: 7%;
     margin-right: auto ;
     margin-top: 80px;
+    animation: footer 2s linear infinite
     
 }
 
@@ -90,6 +110,7 @@
     margin-left: 0% ;
     margin-right: auto;
     margin-top: -400px;
+    animation: footer 3s linear infinite
 }
 .coral-13{
     width: 160px;
@@ -102,6 +123,7 @@
     margin-left: 84%;
     margin-right: auto ;
     margin-top: 50px;
+    animation: footer 1s linear infinite
 }
 .plants-15-alium{
     display: none !important;
@@ -111,6 +133,7 @@
     opacity: 0.73;
     margin-left: 16%;
     margin-top: 500px;
+    animation: NoMove;
 }
 .footer-medium{
     width: 42px;
@@ -283,8 +306,7 @@ svg rect:hover {
                 fill: #0fafb4;
             }
 }
-
-                @media only screen and (max-width:414px){
+            @media only screen and (max-width:800px){
                             .footer-img .plants-1{
                                 width: 110px;
                                 transform: rotate(0deg);
@@ -446,43 +468,205 @@ svg rect:hover {
                             }
                 }
 
+                    @media only screen and (max-width:414px){
+                                .footer-img .plants-1{
+                                    width: 110px;
+                                    transform: rotate(0deg);
+                                    opacity: 1;
+                                    margin-left: 30%;
+                                    margin-right: auto;
+                                    margin-top: -20px ;
+                                    display: none;
+                                }
+                                .plants-1-copy{
+                                    width: 110px;
+                                    transform: rotate(0deg);
+                                    opacity: 1;
+                                    margin-left: 70%;
+                                    margin-right: auto;
+                                    margin-top: -130px ;
+                                    transform: scaleX(-1);
+                                    filter: FlipH;
+                                    -ms-filter: "FlipH";
+                                    display: none;
+                                }
+                                .plants-2{
+                                    width: 32px;
+                                    margin-left: 78%;
+                                    margin-right: auto ;
+                                    margin-top: -130px;
+                                    display: none;
+
+                                }
+                                .plants-17{
+                                    z-index: 10;
+                                    width: 110px;
+                                    opacity: 0.74;
+                                    margin-left: 72%;
+                                    margin-top: 20px;
+                                    display: none;
+                                }
+                                .plants-20{
+                                    width: 180px;
+                                    margin-left: 87%;
+                                    margin-right: auto ;
+                                    margin-top: -600px;
+                                    display: none;
+                                }
+                                .coral-2{
+                                    z-index: 0;
+                                    width: 180px;
+                                    margin-left: -3%;
+                                    margin-right: auto ;
+                                    margin-top: 100px;
+                                }
+                                .coral-3{
+                                    z-index: 2;
+                                    width: 110px;
+                                    margin-left: 20%;
+                                    margin-right: auto ;
+                                    margin-top: 120px;
+                                    display: none;
+                                }
+                                .coral-4{
+                                    z-index: 2;
+                                    width: 210px;
+                                    margin-left: -2%;
+                                    margin-right: auto ;
+                                    margin-top: 100px;
+                                    display: none;
+                                }
+                                .coral-5{
+                                    z-index: 1;
+                                    width: 70px;
+                                    margin-left: 1%;
+                                    margin-right: auto ;
+                                    margin-top: 0px;
+                                    display: none;
+                                }
+                                .coral-6{
+                                    z-index: 0;
+                                    width: 127px;
+                                    transform: rotate(21deg);
+                                    opacity: 0.75;
+                                    margin-left: 9%;
+                                    margin-right: auto ;
+                                    margin-top: 160px;
+                                }
+
+                                .coral-10{
+                                    width: 120px;
+                                    margin-left: 3%;
+                                    margin-right: auto ;
+                                    margin-top:260px;
+
+                                }
+
+
+                                .footer-img .coral-12{
+                                    z-index: 10;
+                                    width: 100px;
+                                    transform: rotate(0deg);
+                                    opacity: 0.8;
+                                    margin-left: 0% ;
+                                    margin-right: auto;
+                                    margin-top: -100px;
+                                    display: none;
+                                }
+                                .coral-13{
+                                    width: 160px;
+                                    margin-left: 14%;
+                                    margin-right: auto ;
+                                    margin-top: -350px;
+                                    display: none;
+                                }
+                                .coral-14{
+                                    width: 100px;
+                                    margin-left: 83%;
+                                    margin-right: auto ;
+                                    margin-top: -20px;
+                                    display: none;
+                                }
+                                .plants-15-alium{
+                                    display: block !important;
+                                    width: 139px;
+                                    margin-left: 27%;
+                                    margin-top: 250px;
+                                }
+
+                                .Atrium-logo-Black{
+                                    width: 222px;
+                                    opacity: 0.73;
+                                    margin-left: 2%;
+                                    margin-top: 410px;
+                                }
+                                .footer-medium{
+                                    width: 42px;
+                                    height: 42px;
+                                    margin-left: 12%;
+                                    margin-top: 80px;
+                                    color: aqua; 
+                                }
+
+                                svg{
+                                    width: 35px;
+                                    height: 35px;
+                                    margin-left: 7%;
+                                    margin-top: 530px;
+                                    position: absolute;
+                                    display: inline-block;
+                                    fill : white;
+                                    background: black;
+                                    place-items: center center;
+                                }
+                                footer-img svg:hover {
+                                    fill: white;
+                                }
+                                svg rect{
+                                    fill: black;
+                                }
+                                svg rect:hover {
+                                    fill: #0fafb4;
+                                }
+                    }
+
                             @media(max-width:360px){
                                         .coral-2{
                                             z-index: 0;
                                             width: 50vw;
                                             margin-left: -3%;
                                             margin-right: auto ;
-                                            margin-top: -10vh;
+                                            margin-top: -40vw;
                                         }
                                         .coral-6{
                                             z-index: 0;
-                                            width: 25vw;
+                                            width: 30vw;
                                             transform: rotate(21deg);
                                             opacity: 0.75;
                                             margin-left: 9%;
                                             margin-right: auto ;
-                                            margin-top: -3vh;
+                                            margin-top: -15vw;
                                         }
 
                                         .coral-10{
-                                            width: 30vw;
-                                            margin-left: 3%;
+                                            width: 35vw;
+                                            margin-left: -2%;
                                             margin-right: auto ;
-                                            margin-top: 5vh;
+                                            margin-top: 5vw;
 
                                         }
                                         .plants-15-alium{
                                             display: block !important;
                                             width: 30vw;
                                             margin-left: 33%;
-                                            margin-top: 9vh;
+                                            margin-top: 9vw;
                                         }
 
                                         .Atrium-logo-Black{
                                             width: 222px;
                                             opacity: 0.73;
                                             margin-left: 5%;
-                                            margin-top: 30vh;
+                                            margin-top: 83vw;
                                         }
                                         .footer-medium{
                                             width: 42px;
@@ -493,10 +677,10 @@ svg rect:hover {
                                         }
 
                                         svg{
-                                            width: 42px;
-                                            height: 42px;
+                                            width: 30px;
+                                            height: 30px;
                                             margin-left: 8%;
-                                            margin-top: 42vh;
+                                            margin-top: 120vw;
                                             position: absolute;
                                             display: inline-block;
                                             fill : white;
@@ -514,3 +698,175 @@ svg rect:hover {
                                         }
                             }
             }
+
+
+
+
+@keyframes footer{
+    0%{ 
+        -ms-transform: skew(0)!important;
+        
+    }
+    25%{
+        -ms-transform: skew(-0.06turn, 18deg)!important;
+        transform: skewX(-0.06turn, 18deg);
+    }
+    50%{
+        -ms-transform: skew(1deg, 4deg);
+    }
+    100%{
+        -ms-transform: skew(0);
+        
+    }
+}
+
+              
+@keyframes footer {
+    0%{ 
+        -ms-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+    25%{
+        -ms-transform: skewX(-1deg);
+        transform: skewX(-1deg);
+    }
+    50% {
+        -ms-transform: skewX(-2deg);
+        transform: skewX(-2deg);
+    }
+}
+
+@keyframes coral6{
+    0%{ 
+        -ms-transform: skewX(0deg) rotate(21deg);
+        transform: skewX(0deg) rotate(21deg);
+        
+    }
+    25%{
+        -ms-transform: skewX(-1deg) rotate(21deg);
+        transform: skewX(-1deg) rotate(21deg);
+    }
+    50% {
+        -ms-transform: skewX(-3deg) rotate(21deg);
+        transform: skewX(-3deg) rotate(21deg);
+    }
+}
+
+
+
+
+@media(max-width:3900px) and (min-width:2000px){
+    .footer-img{
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        transform-origin: inherit;
+        animation-timing-function: ease-in;
+    }
+
+
+    .footer-img .plants-1{
+        width: 160px;
+        transform: rotate(0deg);
+        opacity: 0.6;
+        margin-left: 25%;
+        margin-right: auto;
+        margin-top: 150px ; 
+    }
+    .plants-1-copy{
+        width: 200px;
+        opacity: 0.6;
+        transform: rotate(-20deg);
+        opacity: 1;
+        margin-left: 69%;
+        margin-right: auto;
+        margin-top: 550px ;
+    }
+    .plants-2{
+        width: 170px;
+        margin-left: 76%;
+        margin-right: auto ;
+        margin-top: 400px;
+
+    }
+    .plants-17{
+        z-index: 10;
+        width: 300px;
+        opacity: 0.74;
+        margin-left: 73%;
+        margin-top: 590px;
+        animation: footer 4s linear infinite;
+    }
+    .plants-20{
+        width: 237px;
+        margin-left: 90%;
+        margin-top: -650px;
+    }
+    .coral-2{
+        z-index: 1;
+        width: 503px;
+        margin-left: -2%;
+        margin-top: 230px;
+    }
+    .coral-3{
+        z-index: -1;
+        width: 220px;
+        margin-left: 13%;
+        margin-top: 500px;
+    }
+    .coral-4{
+        z-index: -1;
+        width: 340px;
+        margin-left: -2%;
+        margin-top: 750px;
+    }
+    .coral-5{
+        z-index: -1;
+        width: 180px;
+        margin-left: 5%;
+        margin-right: auto ;
+        margin-top: 650px;
+    }
+    .coral-6{
+        z-index: 0;
+        width: 320px;
+        margin-top: 400px;
+
+    }
+
+    .coral-10{
+        width: 520px;
+        left: 1%;
+        margin-top: 580px;
+
+    }
+
+
+    .footer-img .coral-12{
+        z-index: -1;
+        width: 300px;
+        margin-left: -1% ;
+        margin-top: -500px;
+    }
+    .coral-13{
+        width: 260px;
+        margin-top: -30px;
+        z-index: -2;
+    }
+    .coral-14{
+        width: 190px;
+        margin-left: 82%;
+        margin-top: 650px;
+    }
+    
+    .Atrium-logo-Black{
+        width: 300px;
+        margin-top: 1100px;
+        animation: NoMove;
+    }
+
+    svg{
+        width: 40px;
+        height: 40px;
+        margin-top: 1320px;
+    }
+}

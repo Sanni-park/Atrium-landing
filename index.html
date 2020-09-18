@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Artium</title>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-529F72S');</script>
+
+    <title>Atrium</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Atrium : Breathing Abyss">
+    <meta property="og:description" content="A place where are joy and warmness">
+    <meta property="og:image" content="https://i.imgur.com/ugSxBsN.png">
+    <meta property="og:url" content="https://atrium.101.global/">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel='shortcut icon' href='images/Ocean creatures/lives/plants-16-alium.png' type='image/x-ico'/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--<link rel="stylesheet" type="text/css" href="/CSS/media-query-other-text.css">-->
+    <link rel="stylesheet" type="text/css" href="/CSS/media-query-wide.css">
 </head>
 <body>
     <div class="wrapper">
@@ -78,7 +93,7 @@
             </section>
             <section class="story-img">
                 <link rel="stylesheet" href="/CSS/1-story-img.css">
-                <img class="Atrium-logo" src="images/Logo/Atrium-logo set_Marin blue.png">
+                <img class="Atrium-logo" src="images/Logo/Atrium-logo.png">
                 <img class="Colosseum" src="images/Illust graphic decor/Colosseum.png">
                 <img class="Colosseum-over-1440" src="images/Illust graphic decor/Colosseum-over-1440.png">
                 <img class="Colosseum-iPad" src="images/Illust graphic decor/Colosseum-iPad.png">
@@ -96,15 +111,15 @@
             </section>
             <section>
                 <main id="story" class="story-body">
-                    <h6>story</h6>
+                    <h6>Story</h6>
                     <h1>Welcome home</h1>
                     <aside class="story-head-1"> Can<br>
                         you<br>
                         see <br>
-                        youself?
+                        yourself?
                     </aside>
                     <aside class="story-head-2">You are here with us!<br>
-                        57 people from over the world.<br>
+                        57 people from all over the world.<br>
                         All of you are represented by the colors you find comforting.
                     </aside>
                     <article>
@@ -123,19 +138,22 @@
             </section>
             
             <!---Development Process--->
+        <div class="development-process">
             <section class="development-img">
                 <link rel="stylesheet" href="/CSS/2-development-img.css">
                 <img class="Hover-Double-diamond" src="images/Illust graphic decor/Double diamond.png">
-                <img class="shell-1" src="images/Ocean creatures/Shells/shell-1.png">
-                <img class="shell-2" src="images/Ocean creatures/Shells/shell-2.png">
-                <img class="shell-3" src="images/Ocean creatures/Shells/shell-3.png">
-                <img class="shell-3-copy" src="images/Ocean creatures/Shells/shell-3.png">
-                <img class="shell-4" src="images/Ocean creatures/Shells/shell-4.png">
-                <img class="shell-5" src="images/Ocean creatures/Shells/shell-5.png">
-                <img class="shell-6" src="images/Ocean creatures/Shells/shell-6.png">
-                <img class="shell-7" src="images/Ocean creatures/Shells/shell-7.png">
-                <img class="shell-8" src="images/Ocean creatures/Shells/shell-8.png">
-                <img class="shell-8-copy" src="images/Ocean creatures/Shells/shell-8.png">
+                <div class="development-shells">
+                    <img class="shell-1" onclick="setDevelopmentContent(2)" src="images/Ocean creatures/Shells/shell-1.png">
+                    
+                    <img class="shell-3" onclick="setDevelopmentContent(1)" src="images/Ocean creatures/Shells/shell-3.png">
+                    <img class="shell-3-copy" onclick="setDevelopmentContent(3)" src="images/Ocean creatures/Shells/shell-3.png">
+                    <img class="shell-4" onclick="setDevelopmentContent(0)" src="images/Ocean creatures/Shells/shell-4.png">
+                    <img class="shell-5" src="images/Ocean creatures/Shells/shell-5.png">
+                    <img class="shell-6" src="images/Ocean creatures/Shells/shell-6.png">
+                    <img class="shell-7" src="images/Ocean creatures/Shells/shell-7.png">
+                    <img class="shell-8" src="images/Ocean creatures/Shells/shell-8.png">
+                    <img class="shell-8-copy" src="images/Ocean creatures/Shells/shell-8.png">
+                </div>
                 
                 
             </section>
@@ -144,6 +162,10 @@
             <h6>Development Process</h6>
             <h1>The story of Atrium</h1>
             <article>
+                <div class="cta-box">
+                    <div class="into-the-field-cta"><a href="https://medium.com/@rosie.brtk/the-ocean-of-people-project-atrium-beb5c8aea95f" target="_blank" style="color:#08ba6e">Into the field</a>
+                    </div>
+                </div>
               <div class="development-text-box">
                 <p class="year-2019" id="development-year">2019</p>
                 <p class="month-august" id="development-month">August</p>
@@ -152,31 +174,35 @@
                 One humid and hot summer day, Atrium was born on a design thinking workshop in
                 Seoul. The designers behind the idea were inspired to create a platform, and with
                 it, a new era of social media.<br/>
-                <a href="" style="color:#08ba6e">Into the field</a>
+                
               </p>
-              <div class="development-buttons">
-                <p class="august-2019" onclick="setDevelopmentContent(0)">2019 <br/>August</p>
-                <p class="december-2019" onclick="setDevelopmentContent(1)">
-                  2019 <br/>
-                  December
-                </p>
-                <p class="january-2020" onclick="setDevelopmentContent(2)">
-                  2020 <br/>
-                  January
-                </p>
-                <p class="march-2020" onclick="setDevelopmentContent(3)">
-                  2020 <br/>
-                  March
-                </p>
-                <p class="july-2020" onclick="setDevelopmentContent(4)">
-                  2020 <br/>
-                  July
-                </p>
-              </div>
+              <div class="development-shells-text">
+                  <div class="development-buttons">
+                    <p class="august-2019" onclick="setDevelopmentContent(0)">2019 <br/>August</p>
+                    <p class="december-2019" onclick="setDevelopmentContent(1)">
+                      2019 <br/>
+                      December
+                    </p>
+                    <p class="january-2020" onclick="setDevelopmentContent(2)">
+                      2020 <br/>
+                      January
+                    </p>
+                    <p class="march-2020" onclick="setDevelopmentContent(3)">
+                      2020 <br/>
+                      March
+                    </p>
+                      
+                      <img class="shell-2" onclick="setDevelopmentContent(4)" src="images/Ocean creatures/Shells/shell-2.png">
+                    <p class="july-2020" onclick="setDevelopmentContent(4)">
+                      2020 <br/>
+                      July
+                    </p>
+                  </div>
+            </div>
             </article>
           </main>
         </section>
-
+        </div>
             <!---Who are we--->
             <section class="who-are-we-img">
                 <link rel="stylesheet" href="/CSS/3-who-are-we-img.css">
@@ -192,15 +218,17 @@
                 <img class="Rosie" src="images/Illust graphic decor/Rosie.png">
                 <img class="Rosie-decoration " src="images/Illust graphic decor/Rosie-decoration.png">
                 <div>
-                    <a href="" target="_blank">
-                        <svg class="Rosie-e-mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <!--Rosie-e-mail-->
+                    <a href="mailto: rosie@101.global" target="_blank" id="rosie-e-mail-cta-link">
+                        <svg id="rosie-e-mail-cta-svg" class="Rosie-e-mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 26 27" xml:space="preserve">
                         <path d="M25,0H1C0.5,0,0,0.7,0,1.3v24.3C0,26.4,0.5,27,1,27H25c0.5,0,0.9-0.6,0.9-1.3V1.3C26,0.6,25.5,0,25,0z M8,6h10
                             v6.6l-4.5,3.9c-0.2,0.3-0.6,0.3-0.9,0.1l-0.1-0.1L8,12.6V6z M21.1,22H5V12l7.5,6.5c0.3,0.2,0.7,0.2,1,0L21,12h0.1V22z"/>
                         </svg>
                     </a>
-                    <a href="" target="_blank">
-                        <svg class="Rosie-medium" width="70" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <!--Rosie-medium-->
+                    <a href="https://medium.com/@rosie.brtk" target="_blank" id="rosie-medium-cta-link">
+                        <svg id="rosie-medium-cta-svg" class="Rosie-medium" width="70" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                            viewBox="0 0 26 27" xml:space="preserve">
                         <path d="M0,1v25c0,0.6,0.5,1,1,1h24c0.6,0,1-0.5,1-1V1c0-0.6-0.5-1-1-1H1C0.5,0,0,0.5,0,1z M22,6.3l-1.4,1.4
                             c-0.1,0.1-0.2,0.3-0.2,0.4v10.6c0,0.2,0,0.3,0.2,0.4l1.4,1.4V21h-7.1v-0.3l1.5-1.5c0.1-0.1,0.1-0.2,0.1-0.4v-8.6l-4,10.8h-0.5
@@ -213,23 +241,25 @@
                 <img class="Sangeun" src="images/Illust graphic decor/Sangeun.png">
                 <img class="Sangeun-decoration" src="images/Illust graphic decor/Sangeun-decoration.png">
                 <div>
-                    <a href="mailto: designpartsangeun@gmail.com" target="_blank">
-                    <svg class="Sangeun-e-mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <!--Sangeun-e-mail-->
+                    <a href="mailto: se.park@101.global" target="_blank" id="sangeun-e-mail-cta-link">
+                    <svg id="sangeun-e-mail-cta-svg" class="Sangeun-e-mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 26 27" xml:space="preserve">
                     <path d="M25,0H1C0.5,0,0,0.7,0,1.3v24.3C0,26.4,0.5,27,1,27H25c0.5,0,0.9-0.6,0.9-1.3V1.3C26,0.6,25.5,0,25,0z M8,6h10
                         v6.6l-4.5,3.9c-0.2,0.3-0.6,0.3-0.9,0.1l-0.1-0.1L8,12.6V6z M21.1,22H5V12l7.5,6.5c0.3,0.2,0.7,0.2,1,0L21,12h0.1V22z"/>
                     </svg>
-                </a>
-                <a href="" target="_blank">
-                    <svg class="Sangeun-medium" width="70" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	                   viewBox="0 0 26 27" xml:space="preserve">
-                    <path d="M0,1v25c0,0.6,0.5,1,1,1h24c0.6,0,1-0.5,1-1V1c0-0.6-0.5-1-1-1H1C0.5,0,0,0.5,0,1z M22,6.3l-1.4,1.4
-                        c-0.1,0.1-0.2,0.3-0.2,0.4v10.6c0,0.2,0,0.3,0.2,0.4l1.4,1.4V21h-7.1v-0.3l1.5-1.5c0.1-0.1,0.1-0.2,0.1-0.4v-8.6l-4,10.8h-0.5
-                        L7.2,10.2v7.2c0,0.3,0.1,0.6,0.3,0.8l1.9,2.4V21H4v-0.3l1.9-2.4c0.2-0.2,0.3-0.5,0.2-0.8V9.1c0-0.2-0.1-0.5-0.2-0.6L4.2,6.3V6h5.2
-                        l4,9.3L17,6h5V6.3z"/>
-                        
-                    </svg>
-                </a>
+                    </a>
+                    <!--Sangeun-medium-->
+                    <a href="https://medium.com/@designpartsangeun" target="_blank" id="sangeun-medium-cta-link">
+                        <svg id="sangeun-medium-cta-svg" class="Sangeun-medium" width="70" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 26 27" xml:space="preserve">
+                        <path d="M0,1v25c0,0.6,0.5,1,1,1h24c0.6,0,1-0.5,1-1V1c0-0.6-0.5-1-1-1H1C0.5,0,0,0.5,0,1z M22,6.3l-1.4,1.4
+                            c-0.1,0.1-0.2,0.3-0.2,0.4v10.6c0,0.2,0,0.3,0.2,0.4l1.4,1.4V21h-7.1v-0.3l1.5-1.5c0.1-0.1,0.1-0.2,0.1-0.4v-8.6l-4,10.8h-0.5
+                            L7.2,10.2v7.2c0,0.3,0.1,0.6,0.3,0.8l1.9,2.4V21H4v-0.3l1.9-2.4c0.2-0.2,0.3-0.5,0.2-0.8V9.1c0-0.2-0.1-0.5-0.2-0.6L4.2,6.3V6h5.2
+                            l4,9.3L17,6h5V6.3z"/>
+
+                        </svg>
+                    </a>
                 </div>
                 
                 <img class="plants-1" src="images/Ocean creatures/lives/plants-1.png">
@@ -263,7 +293,7 @@
             <section class="interview-booking-img">
                 <link rel="stylesheet" href="/CSS/4-interview-booking-img.css">
                 <img class="Interview-booking-saying" src="images/Illust graphic decor/Interview-booking-saying.png">
-                <a href=""><img class="Interview-booking-rosie" src="images/Illust graphic decor/Interview-booking-rosie.png"></a>
+                <a href="https://airtable.com/shrGQ0KW7iIvqoUTW" class="interview-booking-cta-img" id="interview-booking-cta-img" target="_blank"><img id="interview-booking-cta" class="Interview-booking-rosie" src="images/Illust graphic decor/Interview-booking-rosie.png"></a>
                 <img class="User-faces-charactors_0009_GL-115" src="images/User faces/images/number_0009_GL-115.png">
                 <img class="User-faces-charactors_0053_GL-6" src="images/User faces/images/number_0053_GL-6.png">
                 <img class="User-faces-charactors_0045_GL-29" src="images/User faces/images/number_0045_GL-29.png">
@@ -271,13 +301,13 @@
             <section id="interview-booking" class="interview-booking-body">
                 <main>
                     <h6>Interview booking</h6>
-                    <h1>Book an interview with us!</h1>
+                    <h1>Book an interview <br class="text-break"> with us!</h1>
                     <article>
                         <div>
                             <p class="interview-booking-sub-head"> Would you like <br>
                                 to catch up?</p>
-                            <p class="interview-booking-p-text">We’re not quite at our final goal yet, but we’re getting closer day by day. We created this website not only to show you     our progress, but also in the hopes of getting in touch with you again. If you’re interested in a follow-up interview, you can book a date with us here!<br>
-                                <a href="" style="color:#08ba6e">Join us on the journey!</a></p>
+                            <p class="interview-booking-p-text">We’re not quite at our final goal yet, but we’re getting closer day by day. We created this website not only to show you     our progress, but also in the hopes of getting in touch with you again. If you’re interested in a follow-up interview, check out our pre-interview survey!<br>
+                                <a href="https://airtable.com/shrGQ0KW7iIvqoUTW" class="interview-booking-cta" target="_blank" style="color:#08ba6e">Join us on the journey!</a></p>
                         </div>
                     </article>
                 </main>
@@ -292,7 +322,7 @@
                 <img class="shell-11" src="images/Ocean creatures/Shells/shell-11.png">
                 <img class="shell-12" src="images/Ocean creatures/Shells/shell-12.png">
                 <img class="shell-13" src="images/Ocean creatures/Shells/shell-13.png">
-                <a href=""><img class="Survey-questionnair-board" src="images/Illust graphic decor/Survey-questionnair-board.png"></a>
+                <a href="https://airtable.com/shr1oW1t78xFYoAFa" target="_blank" id="survey-cta"><img id="surevy-cta-img" class="Survey-questionnair-board" src="images/Illust graphic decor/Survey-questionnair-board.png"></a>
             </section>
             <section id="survey" class="survey-body">
                 <main>
@@ -302,13 +332,13 @@
                         <div>
                             <p class="survey-sub-head">We’d be delighted to meet more of you guys, so we decided to <br class="text-break"> re-open the questionnaire!</p>
                             <div class="survey-cta-link"> Go to the link</div>
-                            <p class="survey-p-text">Even though the first round of surveying is over, Atrium’s research phase is nowhere near finished.  If you’re new and would like to be part of Atrium’s journey, you can find our survey here!</p>
+                            <p class="survey-p-text">Even though the first round of surveying is over, Atrium’s research phase is nowhere near finished.  If you’re new and would like to be part of Atrium’s journey, you can find our <a href="https://airtable.com/shr1oW1t78xFYoAFa" class="survey-here-cta" target="_blank" style="color:#08ba6e">survey here!</a></p>
                         </div>
                     </article>
                 </main>
             </section>
             
-            <!---Breathing Abssy--->
+            <!---Breathing Abyss--->
             <section class="breathing-abssy-img">
                 <link rel="stylesheet" href="/CSS/6-breathing-abyss-img.css">
                 <img class="breathing-abssy-background" src="images/Illust graphic decor/Breathing abyss-background.png">
@@ -317,12 +347,12 @@
             </section>
             <section>
                 <main id="breathing-abyss" class="breathing-abssy-body">
-                    <h6>Breathing Abssy</h6>
+                    <h6>Breathing Abyss</h6>
                     <h1>The Ocean of <br class="text-break"> People</h1>
                     <article>
                         <div>
                         
-                            <p class="breathing-abssy-p-text">In our questionnaire, we asked you guys to imagine a scenario in which you’re standing in front of <strong>colorful doors.</strong> Then, we asked you to pick the colors that make you feel relaxed  the most. <br> <br>
+                            <p class="breathing-abssy-p-text">In our questionnaire, we asked you guys to imagine a scenario in which you’re standing in front of <strong>colorful doors.</strong> Then, we asked you to pick the colors that make you feel the most relaxed.  <br> <br>
 
                                 During the times we were reading and organizing your answers, we realized something; <strong>that all the colors you picked</strong> reminded us of the <strong>vibrant underwater life</strong> - and our lives as well. After all, we are one big ocean of people, coexisting in spaces just like all the fish and coral, 
                                 aren’t we? 🐠🐬🐙🐳 </p>
@@ -351,7 +381,7 @@
             <img class="coral-14" src="images/Ocean creatures/Coral/coral-14.png">
             <img class="plants-15-alium" src="images/Ocean creatures/lives/plants-15-alium.png">
             <img class="Atrium-logo-Black" src="images/Logo/Atrium-logo set_Black.png">
-            <a href="" target="_blank"><svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+            <a href="https://medium.com/tag/breathingabyssatrium" target="_blank" id="footer-medium-cta"><svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" id="footer-medium-cta-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
 		<g>
 				<rect x="0" y="0" width="256" height="256"></rect>
 				<path d="M61.0908952,85.6165814 C61.3045665,83.5054371 60.4994954,81.4188058 58.9230865,79.9979257 L42.8652446,60.6536969 L42.8652446,57.7641026 L92.7248438,57.7641026 L131.263664,142.284737 L165.145712,57.7641026 L212.676923,57.7641026 L212.676923,60.6536969 L198.947468,73.8174045 C197.763839,74.719636 197.176698,76.2025173 197.421974,77.670197 L197.421974,174.391342 C197.176698,175.859021 197.763839,177.341902 198.947468,178.244134 L212.355766,191.407842 L212.355766,194.297436 L144.91283,194.297436 L144.91283,191.407842 L158.802864,177.923068 C160.16778,176.558537 160.16778,176.157205 160.16778,174.070276 L160.16778,95.8906948 L121.54867,193.97637 L116.329871,193.97637 L71.3679139,95.8906948 L71.3679139,161.628966 C70.9930375,164.392788 71.9109513,167.175352 73.8568795,169.174019 L91.9219516,191.086776 L91.9219516,193.97637 L40.6974359,193.97637 L40.6974359,191.086776 L58.7625081,169.174019 C60.6942682,167.172038 61.5586577,164.371016 61.0908952,161.628966 L61.0908952,85.6165814 Z"></path>
@@ -361,20 +391,22 @@
             <a href="" target="_blank"><img class="footer-medium" src="images/SNS/medium-seeklogo.svg"></a>-->
         </section>
         <footer>
-            <div class="atrium2amgmailcom"><a href="atrium.2am@gmail.com">atrium.2am@gmail.com</a></div>
-            <div class="Global">101Global</div>
+            <div class="atrium2amgmailcom"><a href="mailto: atrium@101.global">atrium@101.global</a></div>
+            <div class="Global"><a href="https://www.101.global/" target="_blank">101Global</a></div>
             <div class="Republic-of-Korea-S">Republic of Korea, Seoul</div>
-            <div class="Atrium-articles">Atrium-articles</div>
-            <div class="Group-of-people-who">101Global is a group of people who design experimental new businesses. You can find out more about our projects following the links below:
-                <ul>— YZED, our AR Fashion experiment </ul>
-                <ul>— Welko, connecting Korean and Japan culture </ul>
-                <ul>— Space101, a creative space for global creators </ul>
+            <div class="Atrium-articles"><a href="https://medium.com/tag/breathingabyssatrium">Atrium-articles</a></div>
+            <div class="Group-of-people-who">We’re looking for people to join us! If you’d be interested in working with us and becoming a member of the Atrium team, send us an e-mail at <a href="mailto: atrium@101.global">atrium@101.global</a>😉<br><br>
+                101Global is a group of people who design experimental new businesses. You can find out more about our projects following the links below:
+                <ul>— <a href="https://yzed.me/" target="_blank">YZED, our AR Fashion experiment</a></ul>
+                <ul>— <a href="https://www.instagram.com/welko_japan/" target="_blank">WELKO, home cafe studio where Japanese Korea-lovers meet Korean illustrators </a></ul>
+                <ul>— <a href="http://space-101-app.herokuapp.com/" target="_blank">SPACE101, creative salon where global creators meet Seoul, Korea </a></ul>
             </div>
-            <div class="Powered-by-Hanwha-gr">Powered by Hanwha group</div>
+            <div class="Powered-by-Hanwha-gr">Powered by <a href="https://www.hanwha.com/en.html">Hanwha group</a></div>
         </footer>
         
     </div>
     <script src="script.js"></script>
+
 
 
      <!---script try-2020 june- didn't work

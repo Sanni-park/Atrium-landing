@@ -1,8 +1,8 @@
                     /*-----Global-----*/
 
 @font-face {
-    src: url(fonts/PTSerifCaption-Regular.ttf);
-    font-family: PTSerif-Caption;
+    src: url(fonts/PTSerif-Regular.ttf);
+    font-family: PTSerif-Regular;
     font-style: normal;
 }
 @font-face {
@@ -11,7 +11,7 @@
     font-style: italic;
 }
 @font-face {
-    src: url(fonts/Avenir.ttc);
+    src: url(fonts/Mulish-VariableFont_wght.ttf);
     font-family: test-sans;
 }
 
@@ -20,6 +20,9 @@
     font-family: Magnolia-Script;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700&family=Noto+Sans+KR:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 
 
@@ -32,6 +35,7 @@
     font-size: 100%;
     vertical-align: baseline;
 }
+
 body{
     width: 100vw;
     overflow-x: hidden !important;
@@ -57,14 +61,14 @@ header{
     z-index: -1000;
     position: absolute;
     width: 100vw;
-    height: 7500px;
+    height: 92%;
     top: 0px;
     background-image: linear-gradient(to bottom, #f9fdff, #f0f9ff);
 }
 h6 {
     width: 100vs;
     height: 33px;
-    font-family: test-sans, sans-serif;
+    font-family: test-sans, 'Noto Sans KR', sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-stretch: normal;
@@ -83,7 +87,7 @@ h6 {
 h1{
     width: 100vs;
     height: 57px;
-    font-family: PTSerif-Caption, serif;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 44px;
     font-weight: normal;
     font-stretch: normal;
@@ -99,8 +103,14 @@ h1{
     }
 }
 
-p{
-    
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #4ed5d9;
+}
+
+::selection {
+  color: white;
+  background: #4ed5d9;
 }
 
                     /*-----Navigation-----*/
@@ -117,12 +127,12 @@ p{
 .Navigation{
     position: fixed;
     width: 100vw;
-    font-family: test-sans, sans-serif;
-    top: 25px;
+    font-family: test-sans,'Noto Sans KR', sans-serif;
+    top: 0vw;
     margin-left: 58px;
     margin-right: 50px;
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -136,6 +146,7 @@ p{
 .Navigation a:link{
     color: #003739;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
 .Navigation a:hover {
@@ -185,27 +196,23 @@ img{
     padding-top: 50px;
 }
 .story-head-1{
-    width: 192px;
-    height: 180px;
-    font-family: PTSerif-Caption;
+    width: 30vw;
+    height: auto;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 52px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 0.9;
     letter-spacing: -2.0px;
     color: #0091ff;
     margin-left: 30vw;
-    bottom:1ex;
-    position: static;
+    
     
 }
 
 .story-head-2{
-    width: 475px;
+    width: 40vw;
     height: 188px;
-    font-family: PTSerif-Caption;
-    font-size: 32px;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
+    font-size: 2.3vw;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -226,7 +233,7 @@ img{
 .story-body article .story-sub-head-1 {
     width: 500px;
     height: 60px;
-    font-family: PTSerif-Caption;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 44px;
     font-weight: normal;
     font-stretch: normal;
@@ -242,7 +249,7 @@ img{
 .story-p-text-1{
     width: 450px;
     height: 148px;
-    font-family: PTSerif-Caption;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 28px;
     font-weight: normal;
     font-stretch: normal;
@@ -256,7 +263,7 @@ img{
 .story-p-text-2{
     width: 426px;
     height: 170px;
-    font-family: PTSerif-Caption;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 28px;
     font-weight: normal;
     font-stretch: normal;
@@ -270,7 +277,7 @@ img{
 .story-body article .story-sub-head-2 {
     width: 500px;
     height: 129px;
-    font-family: PTSerif-Caption;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 44px;
     font-weight: normal;
     font-stretch: normal;
@@ -285,7 +292,12 @@ img{
 
                     /*-----Development Process-----*/
                     /*-----Development-Image-----*/
-
+.development-process{
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
  
 
 
@@ -296,15 +308,16 @@ img{
     padding-top: 50px;
 }
 .development-text-box{
-    margin-top: 194px;
+    margin-top: 10vw;
     margin-left: 25vw;
+    width: 100vw;
 }
 
 p.year-2019{
     width: 99px;
     height: 49px;
-    font-family: PTSerif-Caption;
-    font-size: 38px;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
+    font-size: 2em;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -316,8 +329,8 @@ p.year-2019{
 p.month-august{
     width: 270px;
     height: 81px;
-    font-family: PTSerif-Caption;
-    font-size: 67px;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
+    font-size: 4.4em;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -329,10 +342,10 @@ p.month-august{
     
 }
 p.introduction-text{
-  width: 300px;
+  width: 18vw;
   height: 230px;
-  font-family: PTSerif-Caption;
-  font-size: 23px;
+  font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
+  font-size: 1.3vw;
   font-weight: normal;
   font-stretch: normal;
   font-style: italic;
@@ -340,15 +353,16 @@ p.introduction-text{
   letter-spacing: -0.86px;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
-    margin-left: 54.5vw;
+    margin-left: 55%;
     position: relative;
-    top: -230px;
+    top: -190px;
     
 }
+
 p.introduction-text a:link, a:visited{
     width: 153px;
     height: 49px;
-    font-family: PTSerif-Caption;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
@@ -365,57 +379,115 @@ p.introduction-text a:hover{
     text-decoration: underline;
 }
 
-.development-buttons{
-    z-index: 3;
-    font-family: Magnolia-Script, sans-serif;
-    width: 87px;
-    height: 82px;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+.cta-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    margin-left: -20px;
+    
+    
+}
+.into-the-field-cta a:link{
+    width: 250px;
+    height: 70px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.into-the-field-cta a:hover{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(77, 255, 179, 0.9);
+    transition: all 0.3s ease 0s;
+}
+.into-the-field-cta{
+    z-index: 1000;
+    font-family: 'test-sans','Noto Sans KR', sans-serif;
+    font-size: 25px;
+    line-height: 1.46;
+    letter-spacing: -0.56px;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #08ba6e;
+    position: absolute;
+    background-color: rgba(77, 255, 179, 0.25);
+    
+    
+}
+
+
+.development-buttons{
+    font-family: 'Magnolia-Script', sans-serif;
+    width: 87px;
+    height: 0px;
+    font-size: 14px;
     color: white;
     margin-left: 18vw;
     margin-top: 60px;
     text-shadow: 2px 2px 4px #0fa4a8;
 }
+.development-shells-text{
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    top: -15vw;
+    text-align: center;
+}
 .august-2019{
-    cursor: zoom-in;
-    position: static;
-    margin-right: 40%;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-right: 2vw;
+    top: 190px ;
 }
 .december-2019{
-    cursor: zoom-in;
+    cursor: pointer;
     position: relative;
     text-align: center;
-    margin-left: 135%;
-    top: -40px;
+    margin-left: 7vw;
+    top: 150px;
 }
 
 .january-2020{
-    cursor: zoom-in;
+    cursor: pointer;
     position: relative;
     text-align: center;
-    margin-left: 275%;
-    top: -80px;
+    margin-left: 14.4vw;
+    top: 110px;
 }
 .march-2020{
-    cursor: zoom-in;
+    cursor: pointer;
     position: relative;
     text-align: center;
-    margin-left: 420%;
-    top: -120px;
+    margin-left: 22vw;
+    top: 70px;
 }
 .july-2020{
-    cursor: zoom-in;
+    cursor: pointer;
     position: relative;
     text-align: center;
-    margin-left: 570%;
-    top: -160px;
+    margin-left: 29.7vw;
+    top: -90px;
 }
+
 
                     /*-----Who are we-----*/
                     /*-----Who are we-image-----*/
@@ -428,10 +500,10 @@ p.introduction-text a:hover{
     padding-top: 50px;
 }
 p.who-we-are-sub-head{
-    width: 559px;
-    height: 117px;
-    font-family: PTSerif-Caption;
-    font-size: 35px;
+    width: 40vw;
+    height: auto;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
+    font-size: 44px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -446,7 +518,7 @@ p.who-we-are-sub-head{
 p.who-we-are-p-text{
   width: auto;
   height: 223px;
-  font-family: PTSerif-Caption;
+  font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
   font-size: 22px;
   font-weight: normal;
   font-stretch: normal;
@@ -455,7 +527,7 @@ p.who-we-are-p-text{
   letter-spacing: -0.94px;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
-    margin-top: 182px;
+    margin-top: 9vw;
     margin-left: 58vw;
     margin-right: 12vw;
     
@@ -463,7 +535,7 @@ p.who-we-are-p-text{
 .who-we-are-body aside{
   width: 988px;
   height: 312px;
-  font-family: PTSerif-Caption;
+  font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
   font-size: 66px;
   font-weight: normal;
   font-stretch: normal;
@@ -492,7 +564,7 @@ aside strong{
 .interview-booking-sub-head{
   width: 470px;
   height: 126px;
-  font-family: PTSerif-Caption;
+  font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
   font-size: 68px;
   font-weight: normal;
   font-stretch: normal;
@@ -507,7 +579,7 @@ aside strong{
 .interview-booking-p-text{
   width: 444px;
   height: 262px;
-  font-family: PTSerif-Caption;
+  font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
   font-size: 22px;
   font-weight: normal;
   font-stretch: normal;
@@ -521,10 +593,12 @@ aside strong{
 .interview-booking-p-text a:link, a:visited{
     color: #08ba6e;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 .interview-booking-p-text a:hover{
      color: #0fafb4;
     text-decoration: underline;
+    transition: all 0.3s ease 0s;
 }
 
                     /*-----Survey-----*/
@@ -539,7 +613,7 @@ aside strong{
 .survey-sub-head{
   width: 50vw;
   height: 177px;
-  font-family: PTSerif-Caption;
+  font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
   font-size: 3.4em;
   font-weight: normal;
   font-stretch: normal;
@@ -557,7 +631,7 @@ aside strong{
 .survey-cta-link{ 
     width: 192px;
     height: 39px;
-    font-family: PTSerif-Caption;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 30px;
     line-height: 1.11;
     letter-spacing: -1.5px;
@@ -572,7 +646,7 @@ aside strong{
 .survey-p-text{
     width: 381px;
     height: 215px;
-    font-family: PTSerif-Caption;
+    font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
     font-size: 23px;
     font-weight: normal;
     font-stretch: normal;
@@ -597,7 +671,7 @@ aside strong{
 .breathing-abssy-p-text{
   width: 514px;
   height: 382px;
-  font-family: PTSerif-Caption;
+  font-family: PTSerif-Regular, 'Nanum Myeongjo', serif;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -618,14 +692,19 @@ aside strong{
 
                     /*-----Footer-----*/
                     /*-----Footer-image-----*/
-
+.footer-img{
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
 
 
 
 
                     /*-----Footer-text----*/
 footer{
-    font-family: test-sans, sans-serif;
+    font-family: test-sans,'Noto Sans KR', sans-serif;
     margin: 0;
     margin-left: 17%;
     margin-right: 15.8%;
@@ -652,11 +731,11 @@ footer{
     left: 0px;
     font-weight: bold;
 }
-.atrium2amgmailcom a:link, a:visited{
+footer a:link, a:visited{
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
 }
-.atrium2amgmailcom a:hover{
+footer a:hover{
     color: #0fafb4;
 }
 
@@ -669,10 +748,8 @@ footer{
     left: 422px;
     top: -24px;
     font-weight: bold;
-
-
-
 }
+
 .Republic-of-Korea-S {
   width: 197px;
   height: 24px;
@@ -693,7 +770,7 @@ footer{
 }
 
 .Group-of-people-who{
-    width: 39.1%;
+    width: 60%;
     height: 1.2%;
     position: relative;
     top: 32px;
@@ -702,7 +779,7 @@ footer{
 }
 
 .Powered-by-Hanwha-gr {
-    width: 213px;
+    width: auto;
     height: 24px;
     object-fit: contain;
     position: relative;
@@ -714,13 +791,8 @@ footer{
 
 /*-----Responsive-----*/
 
-@media()
-
 @media only screen and (min-width:1800px){
-    body{
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+    
             /*-----Footer-----*/
     
     footer{
@@ -782,7 +854,7 @@ footer{
             .Navigation{
                 position: fixed;
                 width: auto;
-                top: 25px;
+                top: 0px;
                 margin-left: 5vw;
                 margin-right: 5vw;
                 font-size: 18px;
@@ -831,11 +903,11 @@ footer{
             .story-head-1{
                 width: 183px;
                 height: auto;
-                font-size: 50px;
+                font-size: 2.5em;
                 line-height: 0.9;
                 letter-spacing: -1.5px;
                 text-align: left;
-                margin-left: 20%;
+                margin-left: 22%;
                 margin-right: auto;
                 margin-top: 8%; 
             }
@@ -849,7 +921,7 @@ footer{
                 text-align: left;
                 margin-left: 44%;
                 margin-right: auto;
-                margin-top: -10px;
+                margin-top: 30px;
             }
 
             .story-body article {
@@ -861,7 +933,7 @@ footer{
             .story-body article .story-sub-head-1 {
                 width: 475px;
                 height: 60px;
-                font-family: PTSerif-Caption;
+                font-family: PTSerif-Regular, 'Nanum Myeongjo', serif; 
                 font-size: 44px;
                 font-weight: normal;
                 font-stretch: normal;
@@ -921,10 +993,6 @@ footer{
                 margin-right: 16%;
             }
 
-            p.year-2019{
-            }
-            p.month-august{
-            }
 
             .development-buttons{
                 z-index: 10;
@@ -936,31 +1004,60 @@ footer{
                 margin-top: -60px;
             }
             .development-buttons:hover {
-                cursor: zoom-in;
+                cursor: pointer;
+            }
+            .development-shells-text{
+                width: 100vw;
+                position: relative;
+                display: inline-block;
+                align-content: center;
+                top: 9vw;
+                text-align: center;
+                margin-left: 2vw;
             }
 
             .august-2019{
                 position: static;
                 margin-right: 28px;
-                margin-top: 80px;
+                margin-top: 0px;
             }
             .december-2019{
                 top: -34px;
-                margin-left: 150%
+                margin-left: 9.5vw;
+                display: inline-block;
             }
 
             .january-2020{
-                margin-left: 300%;
+                margin-left: 20vw;
                 top: -68px;
+                display: inline-block;
             }
             .march-2020{
-                margin-left: 450%;
+                margin-left: 30vw;
                 top: -102px;
+                display: inline-block;
             }
             .july-2020{
-                margin-left: 620%;
-                top: -136px;
+                margin-left: 41vw;
+                top: -1px;
+                margin-top: -6vw;
                 margin-right: 0px;
+                position: absolute;
+                
+            }
+            p.introduction-text{
+                    width: 25vw;
+                    height: 230px;
+                    font-size: 1.8vw;
+                    line-height: 1.5;
+                    letter-spacing: -0.86px;
+                    margin-left: 57%;
+                    margin-right: auto;
+                    margin-top: 2vw;
+            }
+            .cta-box{
+                margin-left: 0px;
+                margin-top: 50px;
             }
 
 
@@ -989,7 +1086,7 @@ footer{
                 margin-right: auto;
                 line-height: 1.42;
                 letter-spacing: -1.41px;
-                margin-top: 630px;
+                margin-top: 660px;
             }
 
             .who-we-are-body aside{
@@ -1014,7 +1111,6 @@ footer{
             .interview-booking-sub-head{
                 width: 421px;
                 height: 126px;
-                font-family: PTSerif-Caption;
                 font-size: 60px;
                 line-height: 0.93;
                 letter-spacing: -2.91px;
@@ -1024,9 +1120,9 @@ footer{
 
 
             .interview-booking-p-text{
-                width: 444px;
+                width: 42vw;
                 height: 318px;
-                font-size: 23px;
+                font-size: 1.2em;
                 margin-left: 10%;
                 margin-right: auto;
             }
@@ -1053,9 +1149,9 @@ footer{
                 display: block!important;
             }
             .survey-p-text{
-                width: 381px;
+                width: 40vw;
                 height: 215px;
-                font-size: 23px;
+                font-size: 1.2em;
                 margin-left: 50%;
                 margin-right: auto;
                 margin-top: 1vw;
@@ -1084,9 +1180,9 @@ footer{
                 display: none !important;
             }
             .breathing-abssy-p-text{
-                width: 440px;
-                height: 462px;
-                font-size: 23px;
+                width: 44vw;
+                height: auto;
+                font-size: 1.3em;
                 text-align: center;
                 margin-left: 28%;
                 margin-right: auto;
@@ -1131,18 +1227,458 @@ footer{
             }
         }
 
-            @media (max-width:1025px){
-                p.introduction-text{
-                    width: 240px;
-                    height: 230px;
-                    font-size: 18px;
-                    line-height: 1.5;
-                    letter-spacing: -0.86px;
-                    margin-left: 58%;
-                    margin-right: auto;
-                    margin-top: 90px;
-                }
-            }
+
+            @media only screen and (max-width:800px){
+
+                                            /*-----For all the section-----*/    
+                        body{
+                            width: 100vw;
+                            overflow-x: hidden!important;
+                        }
+                        h6{
+                            width: auto;
+                            height: auto;
+                            margin-left: auto;
+                            margin-right: auto;
+                            font-size: 22px;
+                            text-align: center;
+
+                        }
+                        h1{
+                            width: auto;
+                            height: auto;
+                            margin-left: 0;
+                            margin-right: 0;
+                            padding-top: 13px;
+                            font-size: 50px;
+                            line-height: 1.05;
+                            z-index: 99;
+                        }
+                    
+                        .background-box{
+                            z-index: -1000;
+                            height: 100%;
+                        }
+                        .wrapper{
+                            width: 100vw;
+                            position: relative;
+                            overflow-x: hidden;
+                        }
+
+                                            /*-----Navigation-----*/
+                        #navbar{
+                            justify-content: flex-start;
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 100vw;
+                            margin: 25px 20px 0px 20px;
+                        }
+
+                        .Navigation{
+                            position: fixed;
+                            top: 0px;
+                            margin-left: 20px;
+                            line-height: 1.5em;
+
+                        }
+                        .Navigation a:link{
+                            color: #003739;
+                            text-decoration: none;
+                        }
+
+                        .Navigation a:hover {
+                            color: #0fafb4;
+                        }
+                        .Navigation a:visited{
+                            color: #003739;
+                        }
+
+                        .Story{
+                            margin-right: none;
+                        }
+                        .Development{
+                            margin-right: none;
+                        }
+                        .Who-are-we{
+                            margin-right: none;
+                        }
+                        .Interview-Booking{
+                            margin-right: none;
+                        }
+                        .Survey{
+                            margin-right: none;
+                        }
+                        .Breathing-Abssy{
+                            margin-left: 0px;
+                            top: 1px;
+                            position: relative;
+                        }
+
+                                            /*-----Story-----*/
+                        .story-body{
+                            margin-top: 366px;
+                            padding-top: 100px;
+                        }
+                        .story-head-1{
+                            width: auto;
+                            height: 276px;
+                            font-size: 6em;
+                            line-height: 0.85;
+                            letter-spacing: -0.47px;
+                            text-align: center;
+                            margin-left: 15%;
+                            margin-right: 20%;
+                            margin-top: 27px;
+
+                        }
+
+                        .story-head-2{
+                            width: auto;
+                            height: auto;
+                            line-height: 1.47;
+                            letter-spacing: -1.37px;
+                            text-align: center;
+                            margin-left: 17%;
+                            margin-right: 17%;
+                            top: 100px;
+                            font-size: 2em;
+                            
+                        }
+                        .story-body article {
+                            margin-left: 10%;
+                            margin-right: 10%;
+                            display: flex;
+                            justify-content: flex-start;
+                            flex-wrap: wrap;
+                            margin-top: 60vw;
+
+                        }
+                        .story-body article .story-sub-head-1 {
+                            width: 291px;
+                            height: 132px;
+                            font-size: 44px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 0.98;
+                        }
+                        .text-break{
+                            display: block !important;
+                        }
+                        .story-p-text-1{
+                            width: auto;
+                            height: auto;
+                            font-size: 1.2em;
+                            line-height: 1.5;
+                            letter-spacing: -0.86px;
+                            margin-left: 27vw;
+                            margin-right: 4.1vw;
+                            margin-top: 8vw;
+                        }
+
+
+                        .story-p-text-2{
+                            width: 330px;
+                            height: 115px;
+                            font-size: 1.2em;
+                            line-height: 1.5;
+                            letter-spacing: -0.86px;
+                            margin-left: 0px;
+                            margin-top: 60vw;
+                        }
+                        .story-body article .story-sub-head-2 {
+                            width: auto;
+                            height: 176px;
+                            font-size: 2.7em;
+                            line-height: 1.05;
+                            letter-spacing: -1.8px;
+                            color: #0fafb4;
+                            margin-left: 0px;
+                            margin-top: 0%;
+                        }
+
+                                        /*-----Development Process-----*/
+                        .development-body{
+                            margin-top: 0px;
+                            padding-top: 120px;
+                        }
+                        .development-body h1{
+                            width:300px;
+                            height: 84px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                        .development-text-box{
+                            margin-top: 20vw;
+                            margin-left: 0vw;
+                            margin-right: 0vw;
+                        }
+
+                        p.year-2019{
+                            width: auto;
+                            height: 40px;
+                            font-size: 35px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 0.97;
+                            letter-spacing: -1.63px;
+                            color: #08ba6e;
+                            margin-left: 0vw;
+                            text-align: center;
+                        }
+                        p.month-august{
+                            width: auto;
+                            height: 81px;
+                            font-size: 80px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 0.82;
+                            letter-spacing: -2.87px;
+                            color: #08ba6e;
+                            margin-left: 0vw;
+                            position: static;
+                            text-align: center;
+
+                        }
+                        p.introduction-text{
+                            width: 60%;
+                            height: 260px;
+                            font-size: 1.3em;
+                              line-height: 1.52;
+                              letter-spacing: -0.9px;
+                            margin-left: 20%;
+                            margin-right: 20%;
+                            margin-top: 100vw;
+
+                        }
+
+                        .development-buttons{
+                            z-index: 22;
+                            width: auto;
+                            height: auto;
+                            font-size: 0.75em;
+                            text-align: center;
+                            margin-left: 0;
+                            margin-top: 8vw;
+                            justify-content: flex-start;
+                            display: flex;
+                            flex-wrap: nowrap;
+                        }
+                        .development-shells-text{
+                            width: 100vw;
+                            position: absolute;
+                            display: inline-block;
+                            align-content: center;
+                            top: 220vw;
+                            text-align: center;
+                            margin-left: 2vw;
+                        }
+                        .august-2019{
+                            position: absolute;
+                            display: block;
+                            margin-left: 5vw;
+                            margin-top: 0vw;
+                            top: 0vw;
+                        }
+                        .december-2019{
+                            position: absolute;
+                            display: block;
+                            margin-left: 24vw;
+                            top: 0vw;
+                        }
+
+                        .january-2020{
+                            position: absolute;
+                            display: block;
+                            margin-left: 44vw;
+                            top: 0vw;
+                        }
+                        .march-2020{
+                            position: absolute;
+                            display: block;
+                            margin-left: 65vw;
+                            top: 0vw;
+                        }
+                        .july-2020{
+                            position: absolute;
+                            display: block;
+                            margin-left: 84vw;
+                            top: 6vw;
+                            margin-right: 10px;
+                        }
+
+
+                                        /*-----Who are we-----*/
+                        .who-we-are-body{
+                            margin-top: 92px;
+                            padding-top: 120px;
+                        }
+                        p.who-we-are-sub-head{
+                            width: 340px;
+                            height: 285px;
+                            font-size: 2.5em;
+                              line-height: 1.11;
+                            margin-top: 57px;
+                            margin-left: auto;
+                            margin-right: auto;
+
+                        }
+                    
+                        p.who-we-are-p-text{
+                              width: 328px;
+                              height: 256px;
+                              font-size: 1.4em;
+                              text-align: center;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 400px;
+
+                        }
+                    
+                        .who-we-are-body aside{
+                              width: 80%;
+                              height: auto;
+                              margin-bottom: 20vw;
+                              font-size: 2.8em;
+                              line-height: 1.02;
+                              letter-spacing: -1.47px;
+                        }
+                        aside strong{
+                            color: #003739;
+                            font-weight: 300;
+                        }
+
+                                        /*-----Interview booking-----*/
+                        .interview-booking-body{
+                            margin-top: 0px;
+                            padding-top: 120px;
+                        }
+                        .interview-booking-sub-head{
+                            width: auto;
+                            height: auto;
+                            font-size: 3.1em;
+                            line-height: 0.95;
+                            letter-spacing: -2.66px;
+                            margin-left: 10%;
+                            margin-right: 5%;
+                            margin-top: 80vw;
+
+                        }
+                    
+
+                        .interview-booking-p-text{
+                            width: auto;
+                            height: 318px;
+                            font-size: 1.35em;
+                            margin-left: 10%;
+                            margin-right: 5%;
+                        }
+
+                                            /*-----Survey-----*/
+                        .survey-body{
+                            margin-top: 165px;
+                            padding-top: 120px;
+                        }
+                        .survey-sub-head{
+                            width: auto;
+                            height: auto;
+                            font-size: 2.6em;
+                            line-height: 0.98;
+                            letter-spacing: -2.53px;
+                            margin-left: 10%;
+                            margin-right: 10%;
+                            margin-bottom: 5%;
+                            margin-top: 200px;
+                            display: inline-block;
+
+                        }
+                        .survey-sub-head .text-break{
+                            display: block!important;
+                        }
+                        .survey-p-text{
+                            width: 80vw;
+                            height: 175px;
+                            font-size: 1.2em;
+                            margin-left: 10vw;
+                            margin-right: 10vw;
+                            margin-top: 10px;
+                            line-height: 1.55;
+                            letter-spacing: -0.94px;
+
+                        }
+                        .survey-cta-link{ 
+                            width: 80vw;
+                            height: 39px;
+                            font-size: 32px;
+                            line-height: 1.11;
+                            letter-spacing: -1.5px;
+                            color: #0fafb4;
+                            margin-left: 40%;
+                            margin-top: 31vw;
+                        }
+                    
+
+                                             /*-----Breathing Abssy-----*/
+
+                        
+                        .breathing-abssy-body{
+                            margin-top: 30px;
+                            padding-top: 120px;
+                        }
+                        .breathing-abssy-body .text-break{
+                            display: block !important;
+                        }
+                        .breathing-abssy-p-text{
+                            width: 266px;
+                            height: 674px;
+                            font-size: 22px;
+                            text-align: left;
+                            margin-left: 24px;
+                            margin-right: auto;
+                            margin-top: 77px;
+                        }
+
+                                            /*-----footer-----*/
+                        footer{
+                            font-size: 15px;
+                            margin-left: 7%;
+                            margin-right: 7%;
+                            margin-bottom: 40px;
+                        }
+
+                        .Global{
+                            top: -58px;
+                            left: 0px;
+                        }
+                        .atrium2amgmailcom{
+                            position: relative;
+                            top: -112px;
+                            left: 142px;
+                        }
+
+                        .Republic-of-Korea-S{
+                            top: -45px;
+                            left: 0px;
+                        }
+                        .Atrium-articles{
+                            top: -185px;
+                            left: 0px;
+                        }
+                        .Group-of-people-who{
+                            top: -45px;
+                            left: 0px;
+                            width: auto;
+                            margin-right: 10px;
+
+                        }
+                        .Powered-by-Hanwha-gr{
+                            top:0px;
+                            left: 0px;
+                        }
+                    }
+
                 @media only screen and (max-width:414px){
 
                                             /*-----For all the section-----*/    
@@ -1173,11 +1709,14 @@ footer{
                             z-index: -1000;
                             position: absolute;
                             width: 100vw;
-                            height: 9200px;
+                            height: 9100px;
                         }
 
                                             /*-----Navigation-----*/
-
+                        #navbar{
+                            width: 90vw;
+                            top: 0;
+                        }
                         .Navigation{
                             position: fixed;
                             width: auto;
@@ -1248,7 +1787,8 @@ footer{
                             text-align: center;
                             margin-left: 56px;
                             margin-right: 56px;
-                            margin-top: 285px;
+                            margin-top: 30px;
+                            font-size: 2em;
                         }
                         .story-body article {
                             margin-left: 27px;
@@ -1258,7 +1798,6 @@ footer{
                         .story-body article .story-sub-head-1 {
                             width: 291px;
                             height: 132px;
-                            font-family: PTSerif-Caption;
                             font-size: 44px;
                             font-weight: normal;
                             font-stretch: normal;
@@ -1271,7 +1810,7 @@ footer{
                         .story-p-text-1{
                             width: auto;
                             height: auto;
-                            font-size: 1.0em;
+                            font-size: 1.2em;
                             line-height: 1.5;
                             letter-spacing: -0.86px;
                             margin-left: 27vw;
@@ -1283,7 +1822,7 @@ footer{
                         .story-p-text-2{
                             width: 330px;
                             height: 115px;
-                            font-size: 1.1em;
+                            font-size: 1.2em;
                             line-height: 1.5;
                             letter-spacing: -0.86px;
                             margin-left: 0px;
@@ -1311,15 +1850,14 @@ footer{
                             margin-right: auto;
                         }
                         .development-text-box{
-                            margin-top: 30vw;
-                            margin-left: 20vw;
-                            margin-right: 20vw;
+                            margin-top: 20vw;
+                            margin-left: 0vw;
+                            margin-right: 0vw;
                         }
 
                         p.year-2019{
                             width: auto;
                             height: 40px;
-                            font-family: PTSerif-Caption;
                             font-size: 35px;
                             font-weight: normal;
                             font-stretch: normal;
@@ -1333,7 +1871,6 @@ footer{
                         p.month-august{
                             width: auto;
                             height: 81px;
-                            font-family: PTSerif-Caption;
                             font-size: 67px;
                             font-weight: normal;
                             font-stretch: normal;
@@ -1354,7 +1891,7 @@ footer{
                               letter-spacing: -0.9px;
                             margin-left: 20%;
                             margin-right: 20%;
-                            margin-top: 114%;
+                            margin-top: 105vw;
 
                         }
 
@@ -1365,30 +1902,48 @@ footer{
                             font-size: 0.75em;
                             text-align: center;
                             margin-left: 0;
-                            margin-top: -32vh;
+                            margin-top: 0vw;
                         }
-
+                        .development-shells-text{
+                            width: 100vw;
+                            position: relative;
+                            display: inline-block;
+                            align-content: center;
+                            top: -40vw;
+                            text-align: center;
+                            margin-left: 2vw;
+                        }
                         .august-2019{
-                            position: static;
-                            margin-left: -75%;
-                            margin-top: 0;
+                            position: absolute;
+                            display: block;
+                            margin-left: 5vw;
+                            margin-top: 0vw;
+                            top: 0vw;
                         }
                         .december-2019{
-                            margin-left: -40%;
-                            top: -34px;
+                            position: absolute;
+                            display: block;
+                            margin-left: 24vw;
+                            top: 0vw;
                         }
 
                         .january-2020{
-                            margin-left: 0%;
-                            top: -68px;
+                            position: absolute;
+                            display: block;
+                            margin-left: 44vw;
+                            top: 0vw;
                         }
                         .march-2020{
-                            margin-left: 40%;
-                            top: -102px;
+                            position: absolute;
+                            display: block;
+                            margin-left: 65vw;
+                            top: 0vw;
                         }
                         .july-2020{
-                            margin-left: 85%;
-                            top: -136px;
+                            position: absolute;
+                            display: block;
+                            margin-left: 84vw;
+                            top: 7vw;
                             margin-right: 10px;
                         }
 
@@ -1422,7 +1977,8 @@ footer{
                     
                         .who-we-are-body aside{
                               width: 80%;
-                              height: 70vh;
+                              height: auto;
+                              margin-bottom: 20vw;
                               font-size: 2.8em;
                               line-height: 1.02;
                               letter-spacing: -1.47px;
@@ -1436,6 +1992,9 @@ footer{
                         .interview-booking-body{
                             margin-top: 0px;
                             padding-top: 120px;
+                        }
+                        .interview-booking-body .text-break{
+                            display: block !important;
                         }
                         .interview-booking-sub-head{
                             width: auto;
@@ -1471,6 +2030,8 @@ footer{
                             letter-spacing: -2.53px;
                             margin-left: 5%;
                             margin-right: 5%;
+                            margin-bottom: 5%;
+                            display: inline-block;
 
                         }
                         .survey-sub-head .text-break{
@@ -1479,11 +2040,10 @@ footer{
                         .survey-p-text{
                             width: 80vw;
                             height: 175px;
-                            font-family: PTSerif-Caption;
                             font-size: 1.2em;
                             margin-left: 10vw;
                             margin-right: 10vw;
-                            margin-top: 210px;
+                            margin-top: 30px;
                             line-height: 1.55;
                             letter-spacing: -0.94px;
 
@@ -1491,7 +2051,6 @@ footer{
                         .survey-cta-link{ 
                             width: 80vw;
                             height: 39px;
-                            font-family: test-sans;
                             font-size: 32px;
                             line-height: 1.11;
                             letter-spacing: -1.5px;
@@ -1561,6 +2120,7 @@ footer{
                     }
 
 
+
                             @media only screen and (max-width:360px){
 
                                                     /*-----For all the section-----*/    
@@ -1597,7 +2157,7 @@ footer{
                                 .Navigation{
                                     position: fixed;
                                     width: 95vw;
-                                    top: 25px;
+                                    top: -2vw;
                                     margin-left: 5vw;
                                     margin-right: 0px;
                                     font-size: 22px;
@@ -1665,17 +2225,17 @@ footer{
                                     text-align: center;
                                     margin-left: 5vw;
                                     margin-right: 5vw;
-                                    margin-top: 265px;
+                                    margin-top: 0px;
                                 }
                                 .story-body article {
                                     margin-left: 27px;
                                     margin-right: 24px;
+                                    margin-top: 80vw;
 
                                 }
                                 .story-body article .story-sub-head-1 {
                                     width: 90vw;
                                     height: 152px;
-                                    font-family: PTSerif-Caption;
                                     font-size: 2.8em;
                                     font-weight: normal;
                                     font-stretch: normal;
@@ -1693,6 +2253,7 @@ footer{
                                     letter-spacing: -0.86px;
                                     margin-left: 15vw;
                                     margin-right: 5vw;
+                                    margin-top: 0px;
                                 }
 
 
@@ -1703,7 +2264,8 @@ footer{
                                     line-height: 1.5;
                                     letter-spacing: -0.86px;
                                     margin: 0px;
-                                    margin-top: 10vh;
+                                    margin-top: 10vw;
+                                    margin-bottom: 1vw;
                                 }
                                 .story-body article .story-sub-head-2 {
                                     width: 90vw;
@@ -1713,7 +2275,7 @@ footer{
                                     letter-spacing: -1.8px;
                                     color: #0fafb4;
                                     margin-left: 0vw;
-                                    margin-top: 5vh;
+                                    margin-top: 0vw;
                                 }
 
                                                 /*-----Development Process-----*/
@@ -1728,7 +2290,7 @@ footer{
                                     margin-right: auto;
                                 }
                                 .development-text-box{
-                                    margin-top: 30vw;
+                                    margin-top: 14vw;
                                     margin-left: 10vw;
                                     margin-right: 10vw;
                                     position: relative;
@@ -1737,7 +2299,6 @@ footer{
                                 p.year-2019{
                                     width: 80vw;
                                     height: 49px;
-                                    font-family: PTSerif-Caption;
                                     font-size: 38px;
                                     font-weight: normal;
                                     font-stretch: normal;
@@ -1750,7 +2311,6 @@ footer{
                                 p.month-august{
                                     width: 80vw;
                                     height: 81px;
-                                    font-family: PTSerif-Caption;
                                     font-size: 67px;
                                     font-weight: normal;
                                     font-stretch: normal;
@@ -1765,12 +2325,12 @@ footer{
                                 p.introduction-text{
                                     width: auto;
                                     height: auto;
-                                    font-size: 1em;
-                                      line-height: 1.52;
-                                      letter-spacing: -0.9px;
+                                    font-size: 0.9em;
+                                    line-height: 1.52;
+                                    letter-spacing: -0.9px;
                                     margin-left: 20%;
                                     margin-right: 20%;
-                                    margin-top: 127vw;
+                                    margin-top: 108vw;
 
                                 }
 
@@ -1780,30 +2340,48 @@ footer{
                                     font-size: 11px;
                                     text-align: center;
                                     margin-left: 10vw;
-                                    margin-top: -32vw;
+                                    margin-top: 0vw;
+                                }
+                                .development-shells-text{
+                                    width: 100vw;
+                                    position: relative;
+                                    display: inline-block;
+                                    align-content: center;
+                                    top: -10vw;
+                                    text-align: center;
+                                    margin-left: 2vw;
                                 }
                                 .august-2019{
-                                    position: static;
-                                    margin-right: 21px;
-                                    margin-top: -80px;
+                                    position: absolute;
+                                    margin-top: 0vw;
+                                    left: 0px;
+                                    display: inline-block;
                                 }
                                 .december-2019{
-                                    margin-left: 15vw;
-                                    top: -31px;
+                                    position: absolute;
+                                    margin-top: 0vw;
+                                    left: 0px;
+                                    display: inline-block;
                                 }
 
                                 .january-2020{
-                                    margin-left: 35vw;
-                                    top: -62px;
+                                    position: absolute;
+                                    margin-top: 0vw;
+                                    left: 0px;
+                                    display: inline-block;
                                 }
                                 .march-2020{
-                                    margin-left: 55vw;
-                                    top: -93px;
+                                    position: absolute;
+                                    margin-top: 0vw;
+                                    left: 0px;
+                                    display: inline-block;
                                 }
                                 .july-2020{
-                                    margin-left: 78vw;
-                                    top: -124px;
+                                    position: absolute;
+                                    margin-top: -6vw;
+                                    left: 0px;
                                     margin-right: 10px;
+                                    display: inline-block;
                                 }
 
 
@@ -1844,17 +2422,18 @@ footer{
 
                                                 /*-----Interview booking-----*/
                                 .interview-booking-body{
-                                    margin-top: 0vh;
+                                    margin-top: 0vw;
                                     padding-top: 120px;
                                 }
                                 .interview-booking-sub-head{
                                     width: 88vw;
                                     height: 102px;
-                                    font-family: PTSerif-Caption;
                                     font-size: 2.9em;
                                     line-height: 1;
                                     letter-spacing: -2.19px;
                                     margin-left: 6vw;
+                                    margin-top: 120vw;
+                                    margin-bottom: 2vw;
 
                                 }
                                 .interview-booking-p-text{
@@ -1867,7 +2446,7 @@ footer{
 
                                                     /*-----Survey-----*/
                                 .survey-body{
-                                    margin-top: 8vh;
+                                    margin-top: 10vw;
                                     padding-top: 120px;
                                 }
                                 .survey-sub-head{
@@ -1878,13 +2457,12 @@ footer{
                                     letter-spacing: -2.14px;
                                     margin-left: 5vw;
                                     margin-right: 5vw;
-                                    margin-top: 6vh;
+                                    margin-top: 10vw;
 
                                 }
                                 .survey-p-text{
                                     width: 90vw;
                                     height: 214px;
-                                    font-family: PTSerif-Caption;
                                     font-size: 1.2em;
                                     margin-left: 5vw;
                                     margin-right: 5vw;
@@ -1894,13 +2472,12 @@ footer{
                                 .survey-cta-link{ 
                                     width: auto;
                                     height: auto;
-                                    font-family: test-sans;
                                     font-size: 1.5em;
                                     line-height: 1.11;
                                     letter-spacing: -1.5px;
                                     color: #0fafb4;
                                     margin-left: 41%;
-                                    margin-top: 38vh;
+                                    margin-top: 38vw;
                                     z-index: 10;
                                 }
 
@@ -1929,33 +2506,34 @@ footer{
                                 }
 
                                 .Global{
-                                    top: -20vh;
+                                    top: -45vw;
                                     left: 0px;
                                 }
                                 .atrium2amgmailcom{
                                     position: relative;
-                                    top: -210px;
-                                    left: 50vw;
+                                    top: -60vw;
+                                    left: 40vw;
                                     width: 30vw;
+                                    height: auto;
                                 }
 
                                 .Republic-of-Korea-S{
-                                    top: -20vh;
+                                    top: -45vw;
                                     left: 0px;
                                 }
                                 .Atrium-articles{
-                                    top: -283px;
+                                    top: -79vw;
                                     left: 0px;
                                 }
                                 .Group-of-people-who{
-                                    top: -20vh;
+                                    top: -40vw;
                                     left: 0px;
                                     width: auto;
                                     margin-right: 10px;
 
                                 }
                                 .Powered-by-Hanwha-gr{
-                                    top: -12vh;
+                                    top: -22vw;
                                     left: 0px;
                                 }
                             }

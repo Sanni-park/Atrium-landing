@@ -1,0 +1,220 @@
+@media(max-width:3900px) and (min-width:2000px){
+    body{
+        width: 100vw;
+        overflow-x: hidden !important;
+    }
+    .wrapper{
+        width: 100vw;
+        position: relative;
+        overflow-x: hidden;
+    }
+    .background-box{
+        z-index: -1000;
+        position: absolute;
+        width: 100vw;
+        height: 92%;
+        top: 0px;
+        background-image: linear-gradient(to bottom, #f9fdff, #f0f9ff);
+    }
+    h6{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .Navigation{
+        font-size: 2em;
+    }
+    .Breathing-Abssy{
+        top: -1.3em;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+                        /*-----Story-----*/
+    .story-body h1{
+        margin-bottom: 3vw;
+    }
+    .story-body{
+        margin-top: 430px;
+        padding-top: 100px;
+    }
+    .story-head-1{
+        font-size: 3em;
+        margin-left: 24vw;
+        text-align: center;
+    }
+    .story-head-2{
+        font-size: 2em;
+        width: 25vw;
+        line-height: 1.4;
+        margin-left: 50vw;
+        
+    }
+    .story-body article {
+        margin-left: 17vw;
+        margin-right: 17vw;
+        float: center;
+        margin-top: 320px;
+        justify-content: space-around;
+        display: flex;
+
+    }
+    .story-body article .story-sub-head-1{
+        font-size: 4em;
+        width: 30vw;
+        padding-bottom: 1em;
+    }
+    .story-p-text-1{
+        font-size: 2.2em;
+        width: 30vw;
+    }
+    .story-p-text-2{
+        font-size: 2.2em;
+        width: 30vw;
+        margin-bottom: 1em;
+    }
+    .story-body article .story-sub-head-2{
+        font-size: 4em;
+        width: 30vw;
+    }
+                        /*-----Development Process-----*/
+    
+    .development-body{
+        padding-top: 100px;
+    }
+    .development-text-box{
+        width: auto;
+        left: 25vw;
+        display: flex;
+    }
+    p.year-2019{
+        font-size: 3em;
+        margin-top: 0em;
+    }
+    p.month-august{
+        font-size: 6em;
+        margin-left: -1em;
+        padding-top: 70px;
+        display: inline-block;
+    }
+    p.introduction-text{
+        font-size: 1.6em;
+        top: -5vw;
+    }
+    p.introduction-text a:link, a:visited{
+        font-size: 1em;
+        
+    }
+    .development-buttons{
+        font-size: 1.5em;
+        line-height: 1.1;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15vw;
+        margin-top: 18vw;
+    }
+    
+    .august-2019{
+        margin-left: 3vw;
+        top: 0px;
+        margin-right: 0vw;
+    }
+    .december-2019{
+        margin-left: 3.5vw;
+        top: 0px;
+    }
+    .january-2020{
+        margin-left: 3vw;
+        top: 0px;
+    }
+    .march-2020{
+        margin-left: 4.5vw;
+        top: 0px;
+    }
+    .july-2020{
+        margin-left: 5vw;
+        top: 0px;
+    }
+                    /*-----Who are we-----*/
+
+    .who-we-are-body{
+        padding-top: 100px;
+    }
+    p.who-we-are-sub-head{
+        font-size: 4em;
+        margin-top: 4vw;
+    }
+    p.who-we-are-p-text{
+        font-size: 1.6em;
+        margin-top: 8vw;
+        width: 25vw;
+        margin-left: 60vw;
+    }
+    .who-we-are-body aside{
+        font-size: 5em;
+        width: 50vw;
+        margin-top: 12vw;
+        
+    }
+                    /*-----Interview booking-----*/
+    .interview-booking-body{
+        padding-top: 100px;
+    }
+    .interview-booking-sub-head{
+        font-size: 4.7em;
+        width: 600px;
+        margin-bottom: 2vw;
+        margin-left: 25vw;
+    }
+    .interview-booking-p-text{
+        font-size: 1.5em;
+        width: 550px;
+        margin-left: 25vw;
+    }
+                    /*-----Survey-----*/
+    .survey-body{
+        margin-top: 4vw;
+        padding-top: 100px;
+    }
+    .survey-sub-head{
+        font-size: 3.8em;
+        line-height: 1.1em;
+        margin-top: 3vw;
+        margin-left: 25vw;
+        margin-left: 25vw;
+        width: 50vw;
+    }
+    .survey-p-text{
+        font-size: 1.5em;
+        width: 20vw;
+        margin-top: 2vw;
+    }
+                    /*-----Breathing Abssy-----*/
+    .breathing-abssy-body{
+        margin-top: 5vw;
+        padding-top: 100px;
+        
+    }
+    .breathing-abssy-p-text{
+        font-size: 1.8em;
+        width: 22vw;
+        line-height: 1.6em;
+        
+    }
+                    /*-----Footer-text----*/
+    footer{
+        font-size: 1.1em;
+        margin-top: 50%;
+        margin-bottom: 8%;
+    }
+
+
+}
+
+
+
+
+                    
