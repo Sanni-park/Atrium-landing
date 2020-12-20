@@ -3,7 +3,7 @@ const buttonContent = [
     month: 'August',
     year: '2019',
     content:
-      'One humid and hot summer day, Atrium was born on a design thinking workshop in Seoul. The designers behind the idea were inspired to create a platform, and with it, a new era of social media.',
+      'One humid and hot summer day, Atrium was born on a design thinking workshop in Seoul. The designers behind the idea were inspired to create a platform for the heart, and with it, a new era of social media. ',
   },
   {
     month: 'December',
@@ -51,6 +51,5 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 };
-
 
 
